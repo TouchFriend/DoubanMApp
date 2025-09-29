@@ -7,34 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF6A538F2E8A3241003CE5CD /* HomeAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53812E8A3241003CE5CD /* HomeAd.mm */; };
-		BF6A53902E8A3241003CE5CD /* UIColor+NJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A537A2E8A3241003CE5CD /* UIColor+NJColor.m */; };
-		BF6A53912E8A3241003CE5CD /* NJAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A538B2E8A3241003CE5CD /* NJAsset.m */; };
-		BF6A53922E8A3241003CE5CD /* NJNetworkProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53852E8A3241003CE5CD /* NJNetworkProxy.mm */; };
-		BF6A53932E8A3241003CE5CD /* LaunchAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53832E8A3241003CE5CD /* LaunchAd.mm */; };
-		BF6A53942E8A3241003CE5CD /* UIImage+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A537C2E8A3241003CE5CD /* UIImage+NJCategory.m */; };
-		BF6A53952E8A3241003CE5CD /* NSBundle+NJBundleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A536E2E8A3241003CE5CD /* NSBundle+NJBundleCategory.m */; };
-		BF6A53962E8A3241003CE5CD /* NSBundle+NJLoadBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53722E8A3241003CE5CD /* NSBundle+NJLoadBundle.m */; };
-		BF6A53972E8A3241003CE5CD /* NSURL+NJPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53762E8A3241003CE5CD /* NSURL+NJPath.m */; };
-		BF6A53982E8A3241003CE5CD /* NJSSLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53882E8A3241003CE5CD /* NJSSLProxy.m */; };
-		BF6A53992E8A3241003CE5CD /* NSBundle+NJImageLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53702E8A3241003CE5CD /* NSBundle+NJImageLoading.m */; };
-		BF6A539A2E8A3241003CE5CD /* UIViewController+NJFind.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A537F2E8A3241003CE5CD /* UIViewController+NJFind.m */; };
-		BF6A539B2E8A3241003CE5CD /* UIApplication+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53782E8A3241003CE5CD /* UIApplication+NJCategory.m */; };
-		BF6A539C2E8A3241003CE5CD /* NJCommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A538D2E8A3241003CE5CD /* NJCommonDefine.m */; };
-		BF6A539D2E8A3241003CE5CD /* NSDate+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53742E8A3241003CE5CD /* NSDate+NJCategory.m */; };
-		BF6A539E2E8A3241003CE5CD /* NJAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A538A2E8A3241003CE5CD /* NJAsset.h */; };
-		BF6A539F2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A537D2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h */; };
-		BF6A53A02E8A3241003CE5CD /* NSDate+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53732E8A3241003CE5CD /* NSDate+NJCategory.h */; };
-		BF6A53A12E8A3241003CE5CD /* NSBundle+NJImageLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A536F2E8A3241003CE5CD /* NSBundle+NJImageLoading.h */; };
-		BF6A53A22E8A3241003CE5CD /* UIViewController+NJFind.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A537E2E8A3241003CE5CD /* UIViewController+NJFind.h */; };
-		BF6A53A32E8A3241003CE5CD /* NSBundle+NJLoadBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53712E8A3241003CE5CD /* NSBundle+NJLoadBundle.h */; };
-		BF6A53A42E8A3241003CE5CD /* NSBundle+NJBundleCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A536D2E8A3241003CE5CD /* NSBundle+NJBundleCategory.h */; };
-		BF6A53A52E8A3241003CE5CD /* UIColor+NJColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53792E8A3241003CE5CD /* UIColor+NJColor.h */; };
-		BF6A53A62E8A3241003CE5CD /* NJCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A538C2E8A3241003CE5CD /* NJCommonDefine.h */; };
-		BF6A53A72E8A3241003CE5CD /* UIApplication+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53772E8A3241003CE5CD /* UIApplication+NJCategory.h */; };
-		BF6A53A82E8A3241003CE5CD /* UIImage+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A537B2E8A3241003CE5CD /* UIImage+NJCategory.h */; };
-		BF6A53A92E8A3241003CE5CD /* NSURL+NJPath.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53752E8A3241003CE5CD /* NSURL+NJPath.h */; };
-		BF6A53AA2E8A3241003CE5CD /* NJSSLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53872E8A3241003CE5CD /* NJSSLProxy.h */; };
 		BFC31FD12E86BCF0000A1762 /* libDoubanMAppDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BFC31FD62E86BCF0000A1762 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */; };
 		BFC31FD82E86BCF0000A1762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD72E86BCF0000A1762 /* Foundation.framework */; };
@@ -63,6 +35,33 @@
 		BFC320132E86BCF0000A1762 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC320122E86BCF0000A1762 /* fishhook.h */; };
 		BFC320152E86BCF0000A1762 /* DoubanMAppDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC320142E86BCF0000A1762 /* DoubanMAppDylib.h */; };
 		BFC320172E86BCF0000A1762 /* DoubanMAppDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC320162E86BCF0000A1762 /* DoubanMAppDylib.m */; };
+		BFEC8A7F2E8A54E10054368A /* NSURL+NJPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A652E8A54E10054368A /* NSURL+NJPath.m */; };
+		BFEC8A802E8A54E10054368A /* UIApplication+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A672E8A54E10054368A /* UIApplication+NJCategory.m */; };
+		BFEC8A812E8A54E10054368A /* UIViewController+NJFind.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A6D2E8A54E10054368A /* UIViewController+NJFind.m */; };
+		BFEC8A822E8A54E10054368A /* UIColor+NJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A692E8A54E10054368A /* UIColor+NJColor.m */; };
+		BFEC8A832E8A54E10054368A /* NJCommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A7D2E8A54E10054368A /* NJCommonDefine.m */; };
+		BFEC8A842E8A54E10054368A /* NSBundle+NJLoadBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A612E8A54E10054368A /* NSBundle+NJLoadBundle.m */; };
+		BFEC8A852E8A54E10054368A /* NJNetworkProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A752E8A54E10054368A /* NJNetworkProxy.mm */; };
+		BFEC8A862E8A54E10054368A /* NSBundle+NJBundleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A5D2E8A54E10054368A /* NSBundle+NJBundleCategory.m */; };
+		BFEC8A872E8A54E10054368A /* LaunchAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A722E8A54E10054368A /* LaunchAd.mm */; };
+		BFEC8A882E8A54E10054368A /* NSDate+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A632E8A54E10054368A /* NSDate+NJCategory.m */; };
+		BFEC8A892E8A54E10054368A /* HomeAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A6F2E8A54E10054368A /* HomeAd.mm */; };
+		BFEC8A8A2E8A54E10054368A /* NJSSLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A782E8A54E10054368A /* NJSSLProxy.m */; };
+		BFEC8A8B2E8A54E10054368A /* NJAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A7B2E8A54E10054368A /* NJAsset.m */; };
+		BFEC8A8C2E8A54E10054368A /* NSBundle+NJImageLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A5F2E8A54E10054368A /* NSBundle+NJImageLoading.m */; };
+		BFEC8A8D2E8A54E10054368A /* UIImage+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC8A6B2E8A54E10054368A /* UIImage+NJCategory.m */; };
+		BFEC8A8E2E8A54E10054368A /* NSDate+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A622E8A54E10054368A /* NSDate+NJCategory.h */; };
+		BFEC8A8F2E8A54E10054368A /* NSBundle+NJBundleCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A5C2E8A54E10054368A /* NSBundle+NJBundleCategory.h */; };
+		BFEC8A902E8A54E10054368A /* NJSSLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A772E8A54E10054368A /* NJSSLProxy.h */; };
+		BFEC8A912E8A54E10054368A /* UIApplication+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A662E8A54E10054368A /* UIApplication+NJCategory.h */; };
+		BFEC8A922E8A54E10054368A /* NJAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A7A2E8A54E10054368A /* NJAsset.h */; };
+		BFEC8A932E8A54E10054368A /* NJCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A7C2E8A54E10054368A /* NJCommonDefine.h */; };
+		BFEC8A942E8A54E10054368A /* NSURL+NJPath.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A642E8A54E10054368A /* NSURL+NJPath.h */; };
+		BFEC8A952E8A54E10054368A /* UIColor+NJColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A682E8A54E10054368A /* UIColor+NJColor.h */; };
+		BFEC8A962E8A54E10054368A /* NSBundle+NJImageLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A5E2E8A54E10054368A /* NSBundle+NJImageLoading.h */; };
+		BFEC8A972E8A54E10054368A /* UIImage+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A6A2E8A54E10054368A /* UIImage+NJCategory.h */; };
+		BFEC8A982E8A54E10054368A /* UIViewController+NJFind.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A6C2E8A54E10054368A /* UIViewController+NJFind.h */; };
+		BFEC8A992E8A54E10054368A /* NSBundle+NJLoadBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC8A602E8A54E10054368A /* NSBundle+NJLoadBundle.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,37 +88,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF6A536D2E8A3241003CE5CD /* NSBundle+NJBundleCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJBundleCategory.h"; sourceTree = "<group>"; };
-		BF6A536E2E8A3241003CE5CD /* NSBundle+NJBundleCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJBundleCategory.m"; sourceTree = "<group>"; };
-		BF6A536F2E8A3241003CE5CD /* NSBundle+NJImageLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJImageLoading.h"; sourceTree = "<group>"; };
-		BF6A53702E8A3241003CE5CD /* NSBundle+NJImageLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJImageLoading.m"; sourceTree = "<group>"; };
-		BF6A53712E8A3241003CE5CD /* NSBundle+NJLoadBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJLoadBundle.h"; sourceTree = "<group>"; };
-		BF6A53722E8A3241003CE5CD /* NSBundle+NJLoadBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJLoadBundle.m"; sourceTree = "<group>"; };
-		BF6A53732E8A3241003CE5CD /* NSDate+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+NJCategory.h"; sourceTree = "<group>"; };
-		BF6A53742E8A3241003CE5CD /* NSDate+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NJCategory.m"; sourceTree = "<group>"; };
-		BF6A53752E8A3241003CE5CD /* NSURL+NJPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+NJPath.h"; sourceTree = "<group>"; };
-		BF6A53762E8A3241003CE5CD /* NSURL+NJPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NJPath.m"; sourceTree = "<group>"; };
-		BF6A53772E8A3241003CE5CD /* UIApplication+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NJCategory.h"; sourceTree = "<group>"; };
-		BF6A53782E8A3241003CE5CD /* UIApplication+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NJCategory.m"; sourceTree = "<group>"; };
-		BF6A53792E8A3241003CE5CD /* UIColor+NJColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+NJColor.h"; sourceTree = "<group>"; };
-		BF6A537A2E8A3241003CE5CD /* UIColor+NJColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NJColor.m"; sourceTree = "<group>"; };
-		BF6A537B2E8A3241003CE5CD /* UIImage+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+NJCategory.h"; sourceTree = "<group>"; };
-		BF6A537C2E8A3241003CE5CD /* UIImage+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NJCategory.m"; sourceTree = "<group>"; };
-		BF6A537D2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BBSFreeDataWebCache.h"; sourceTree = "<group>"; };
-		BF6A537E2E8A3241003CE5CD /* UIViewController+NJFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NJFind.h"; sourceTree = "<group>"; };
-		BF6A537F2E8A3241003CE5CD /* UIViewController+NJFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NJFind.m"; sourceTree = "<group>"; };
-		BF6A53812E8A3241003CE5CD /* HomeAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HomeAd.mm; sourceTree = "<group>"; };
-		BF6A53822E8A3241003CE5CD /* HomeAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = HomeAd.xm; sourceTree = "<group>"; };
-		BF6A53832E8A3241003CE5CD /* LaunchAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LaunchAd.mm; sourceTree = "<group>"; };
-		BF6A53842E8A3241003CE5CD /* LaunchAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = LaunchAd.xm; sourceTree = "<group>"; };
-		BF6A53852E8A3241003CE5CD /* NJNetworkProxy.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetworkProxy.mm; sourceTree = "<group>"; };
-		BF6A53862E8A3241003CE5CD /* NJNetworkProxy.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NJNetworkProxy.xm; sourceTree = "<group>"; };
-		BF6A53872E8A3241003CE5CD /* NJSSLProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJSSLProxy.h; sourceTree = "<group>"; };
-		BF6A53882E8A3241003CE5CD /* NJSSLProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJSSLProxy.m; sourceTree = "<group>"; };
-		BF6A538A2E8A3241003CE5CD /* NJAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAsset.h; sourceTree = "<group>"; };
-		BF6A538B2E8A3241003CE5CD /* NJAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAsset.m; sourceTree = "<group>"; };
-		BF6A538C2E8A3241003CE5CD /* NJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCommonDefine.h; sourceTree = "<group>"; };
-		BF6A538D2E8A3241003CE5CD /* NJCommonDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCommonDefine.m; sourceTree = "<group>"; };
 		BFC31FBF2E86BCF0000A1762 /* DoubanMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDoubanMAppDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -151,6 +119,36 @@
 		BFC320122E86BCF0000A1762 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		BFC320142E86BCF0000A1762 /* DoubanMAppDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubanMAppDylib.h; sourceTree = "<group>"; };
 		BFC320162E86BCF0000A1762 /* DoubanMAppDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanMAppDylib.m; sourceTree = "<group>"; };
+		BFEC8A5C2E8A54E10054368A /* NSBundle+NJBundleCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJBundleCategory.h"; sourceTree = "<group>"; };
+		BFEC8A5D2E8A54E10054368A /* NSBundle+NJBundleCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJBundleCategory.m"; sourceTree = "<group>"; };
+		BFEC8A5E2E8A54E10054368A /* NSBundle+NJImageLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJImageLoading.h"; sourceTree = "<group>"; };
+		BFEC8A5F2E8A54E10054368A /* NSBundle+NJImageLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJImageLoading.m"; sourceTree = "<group>"; };
+		BFEC8A602E8A54E10054368A /* NSBundle+NJLoadBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJLoadBundle.h"; sourceTree = "<group>"; };
+		BFEC8A612E8A54E10054368A /* NSBundle+NJLoadBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJLoadBundle.m"; sourceTree = "<group>"; };
+		BFEC8A622E8A54E10054368A /* NSDate+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+NJCategory.h"; sourceTree = "<group>"; };
+		BFEC8A632E8A54E10054368A /* NSDate+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NJCategory.m"; sourceTree = "<group>"; };
+		BFEC8A642E8A54E10054368A /* NSURL+NJPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+NJPath.h"; sourceTree = "<group>"; };
+		BFEC8A652E8A54E10054368A /* NSURL+NJPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NJPath.m"; sourceTree = "<group>"; };
+		BFEC8A662E8A54E10054368A /* UIApplication+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NJCategory.h"; sourceTree = "<group>"; };
+		BFEC8A672E8A54E10054368A /* UIApplication+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NJCategory.m"; sourceTree = "<group>"; };
+		BFEC8A682E8A54E10054368A /* UIColor+NJColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+NJColor.h"; sourceTree = "<group>"; };
+		BFEC8A692E8A54E10054368A /* UIColor+NJColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NJColor.m"; sourceTree = "<group>"; };
+		BFEC8A6A2E8A54E10054368A /* UIImage+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+NJCategory.h"; sourceTree = "<group>"; };
+		BFEC8A6B2E8A54E10054368A /* UIImage+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NJCategory.m"; sourceTree = "<group>"; };
+		BFEC8A6C2E8A54E10054368A /* UIViewController+NJFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NJFind.h"; sourceTree = "<group>"; };
+		BFEC8A6D2E8A54E10054368A /* UIViewController+NJFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NJFind.m"; sourceTree = "<group>"; };
+		BFEC8A6F2E8A54E10054368A /* HomeAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HomeAd.mm; sourceTree = "<group>"; };
+		BFEC8A702E8A54E10054368A /* HomeAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = HomeAd.xm; sourceTree = "<group>"; };
+		BFEC8A722E8A54E10054368A /* LaunchAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LaunchAd.mm; sourceTree = "<group>"; };
+		BFEC8A732E8A54E10054368A /* LaunchAd.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchAd.xm; sourceTree = "<group>"; };
+		BFEC8A752E8A54E10054368A /* NJNetworkProxy.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetworkProxy.mm; sourceTree = "<group>"; };
+		BFEC8A762E8A54E10054368A /* NJNetworkProxy.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = NJNetworkProxy.xm; sourceTree = "<group>"; };
+		BFEC8A772E8A54E10054368A /* NJSSLProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJSSLProxy.h; sourceTree = "<group>"; };
+		BFEC8A782E8A54E10054368A /* NJSSLProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJSSLProxy.m; sourceTree = "<group>"; };
+		BFEC8A7A2E8A54E10054368A /* NJAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAsset.h; sourceTree = "<group>"; };
+		BFEC8A7B2E8A54E10054368A /* NJAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAsset.m; sourceTree = "<group>"; };
+		BFEC8A7C2E8A54E10054368A /* NJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCommonDefine.h; sourceTree = "<group>"; };
+		BFEC8A7D2E8A54E10054368A /* NJCommonDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCommonDefine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -198,54 +196,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF6A53802E8A3241003CE5CD /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				BF6A536D2E8A3241003CE5CD /* NSBundle+NJBundleCategory.h */,
-				BF6A536E2E8A3241003CE5CD /* NSBundle+NJBundleCategory.m */,
-				BF6A536F2E8A3241003CE5CD /* NSBundle+NJImageLoading.h */,
-				BF6A53702E8A3241003CE5CD /* NSBundle+NJImageLoading.m */,
-				BF6A53712E8A3241003CE5CD /* NSBundle+NJLoadBundle.h */,
-				BF6A53722E8A3241003CE5CD /* NSBundle+NJLoadBundle.m */,
-				BF6A53732E8A3241003CE5CD /* NSDate+NJCategory.h */,
-				BF6A53742E8A3241003CE5CD /* NSDate+NJCategory.m */,
-				BF6A53752E8A3241003CE5CD /* NSURL+NJPath.h */,
-				BF6A53762E8A3241003CE5CD /* NSURL+NJPath.m */,
-				BF6A53772E8A3241003CE5CD /* UIApplication+NJCategory.h */,
-				BF6A53782E8A3241003CE5CD /* UIApplication+NJCategory.m */,
-				BF6A53792E8A3241003CE5CD /* UIColor+NJColor.h */,
-				BF6A537A2E8A3241003CE5CD /* UIColor+NJColor.m */,
-				BF6A537B2E8A3241003CE5CD /* UIImage+NJCategory.h */,
-				BF6A537C2E8A3241003CE5CD /* UIImage+NJCategory.m */,
-				BF6A537D2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h */,
-				BF6A537E2E8A3241003CE5CD /* UIViewController+NJFind.h */,
-				BF6A537F2E8A3241003CE5CD /* UIViewController+NJFind.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		BF6A53892E8A3241003CE5CD /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				BF6A53852E8A3241003CE5CD /* NJNetworkProxy.mm */,
-				BF6A53862E8A3241003CE5CD /* NJNetworkProxy.xm */,
-				BF6A53872E8A3241003CE5CD /* NJSSLProxy.h */,
-				BF6A53882E8A3241003CE5CD /* NJSSLProxy.m */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		BF6A538E2E8A3241003CE5CD /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				BF6A538A2E8A3241003CE5CD /* NJAsset.h */,
-				BF6A538B2E8A3241003CE5CD /* NJAsset.m */,
-				BF6A538C2E8A3241003CE5CD /* NJCommonDefine.h */,
-				BF6A538D2E8A3241003CE5CD /* NJCommonDefine.m */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
 		BFC31FB32E86BCF0000A1762 = {
 			isa = PBXGroup;
 			children = (
@@ -294,13 +244,11 @@
 		BFC31FDC2E86BCF0000A1762 /* Logos */ = {
 			isa = PBXGroup;
 			children = (
-				BF6A53802E8A3241003CE5CD /* Category */,
-				BF6A53812E8A3241003CE5CD /* HomeAd.mm */,
-				BF6A53822E8A3241003CE5CD /* HomeAd.xm */,
-				BF6A53832E8A3241003CE5CD /* LaunchAd.mm */,
-				BF6A53842E8A3241003CE5CD /* LaunchAd.xm */,
-				BF6A53892E8A3241003CE5CD /* Network */,
-				BF6A538E2E8A3241003CE5CD /* Tool */,
+				BFEC8A6E2E8A54E10054368A /* Category */,
+				BFEC8A712E8A54E10054368A /* Home */,
+				BFEC8A742E8A54E10054368A /* Launch */,
+				BFEC8A792E8A54E10054368A /* Network */,
+				BFEC8A7E2E8A54E10054368A /* Tool */,
 			);
 			path = Logos;
 			sourceTree = "<group>";
@@ -371,6 +319,71 @@
 			path = fishhook;
 			sourceTree = "<group>";
 		};
+		BFEC8A6E2E8A54E10054368A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC8A5C2E8A54E10054368A /* NSBundle+NJBundleCategory.h */,
+				BFEC8A5D2E8A54E10054368A /* NSBundle+NJBundleCategory.m */,
+				BFEC8A5E2E8A54E10054368A /* NSBundle+NJImageLoading.h */,
+				BFEC8A5F2E8A54E10054368A /* NSBundle+NJImageLoading.m */,
+				BFEC8A602E8A54E10054368A /* NSBundle+NJLoadBundle.h */,
+				BFEC8A612E8A54E10054368A /* NSBundle+NJLoadBundle.m */,
+				BFEC8A622E8A54E10054368A /* NSDate+NJCategory.h */,
+				BFEC8A632E8A54E10054368A /* NSDate+NJCategory.m */,
+				BFEC8A642E8A54E10054368A /* NSURL+NJPath.h */,
+				BFEC8A652E8A54E10054368A /* NSURL+NJPath.m */,
+				BFEC8A662E8A54E10054368A /* UIApplication+NJCategory.h */,
+				BFEC8A672E8A54E10054368A /* UIApplication+NJCategory.m */,
+				BFEC8A682E8A54E10054368A /* UIColor+NJColor.h */,
+				BFEC8A692E8A54E10054368A /* UIColor+NJColor.m */,
+				BFEC8A6A2E8A54E10054368A /* UIImage+NJCategory.h */,
+				BFEC8A6B2E8A54E10054368A /* UIImage+NJCategory.m */,
+				BFEC8A6C2E8A54E10054368A /* UIViewController+NJFind.h */,
+				BFEC8A6D2E8A54E10054368A /* UIViewController+NJFind.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BFEC8A712E8A54E10054368A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC8A6F2E8A54E10054368A /* HomeAd.mm */,
+				BFEC8A702E8A54E10054368A /* HomeAd.xm */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BFEC8A742E8A54E10054368A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC8A722E8A54E10054368A /* LaunchAd.mm */,
+				BFEC8A732E8A54E10054368A /* LaunchAd.xm */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		BFEC8A792E8A54E10054368A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC8A752E8A54E10054368A /* NJNetworkProxy.mm */,
+				BFEC8A762E8A54E10054368A /* NJNetworkProxy.xm */,
+				BFEC8A772E8A54E10054368A /* NJSSLProxy.h */,
+				BFEC8A782E8A54E10054368A /* NJSSLProxy.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BFEC8A7E2E8A54E10054368A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC8A7A2E8A54E10054368A /* NJAsset.h */,
+				BFEC8A7B2E8A54E10054368A /* NJAsset.m */,
+				BFEC8A7C2E8A54E10054368A /* NJCommonDefine.h */,
+				BFEC8A7D2E8A54E10054368A /* NJCommonDefine.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -379,24 +392,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC31FE62E86BCF0000A1762 /* MDCycriptManager.h in Headers */,
-				BF6A539E2E8A3241003CE5CD /* NJAsset.h in Headers */,
-				BF6A539F2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h in Headers */,
-				BF6A53A02E8A3241003CE5CD /* NSDate+NJCategory.h in Headers */,
-				BF6A53A12E8A3241003CE5CD /* NSBundle+NJImageLoading.h in Headers */,
-				BF6A53A22E8A3241003CE5CD /* UIViewController+NJFind.h in Headers */,
-				BF6A53A32E8A3241003CE5CD /* NSBundle+NJLoadBundle.h in Headers */,
-				BF6A53A42E8A3241003CE5CD /* NSBundle+NJBundleCategory.h in Headers */,
-				BF6A53A52E8A3241003CE5CD /* UIColor+NJColor.h in Headers */,
-				BF6A53A62E8A3241003CE5CD /* NJCommonDefine.h in Headers */,
-				BF6A53A72E8A3241003CE5CD /* UIApplication+NJCategory.h in Headers */,
-				BF6A53A82E8A3241003CE5CD /* UIImage+NJCategory.h in Headers */,
-				BF6A53A92E8A3241003CE5CD /* NSURL+NJPath.h in Headers */,
-				BF6A53AA2E8A3241003CE5CD /* NJSSLProxy.h in Headers */,
 				BFC31FEA2E86BCF0000A1762 /* MDMethodTrace.h in Headers */,
 				BFC320152E86BCF0000A1762 /* DoubanMAppDylib.h in Headers */,
 				BFC320132E86BCF0000A1762 /* fishhook.h in Headers */,
 				BFC320072E86BCF0000A1762 /* LLDBTools.h in Headers */,
 				BFC31FE22E86BCF0000A1762 /* MDConfigManager.h in Headers */,
+				BFEC8A8E2E8A54E10054368A /* NSDate+NJCategory.h in Headers */,
+				BFEC8A8F2E8A54E10054368A /* NSBundle+NJBundleCategory.h in Headers */,
+				BFEC8A902E8A54E10054368A /* NJSSLProxy.h in Headers */,
+				BFEC8A912E8A54E10054368A /* UIApplication+NJCategory.h in Headers */,
+				BFEC8A922E8A54E10054368A /* NJAsset.h in Headers */,
+				BFEC8A932E8A54E10054368A /* NJCommonDefine.h in Headers */,
+				BFEC8A942E8A54E10054368A /* NSURL+NJPath.h in Headers */,
+				BFEC8A952E8A54E10054368A /* UIColor+NJColor.h in Headers */,
+				BFEC8A962E8A54E10054368A /* NSBundle+NJImageLoading.h in Headers */,
+				BFEC8A972E8A54E10054368A /* UIImage+NJCategory.h in Headers */,
+				BFEC8A982E8A54E10054368A /* UIViewController+NJFind.h in Headers */,
+				BFEC8A992E8A54E10054368A /* NSBundle+NJLoadBundle.h in Headers */,
 				BFC320012E86BCF0000A1762 /* OCSelectorTrampolines.h in Headers */,
 				BFC31FFD2E86BCF0000A1762 /* OCMethodTrace.h in Headers */,
 			);
@@ -569,6 +581,21 @@
 				BFC31FF12E86BCF0000A1762 /* a1a2-selectortramps-arm64.s in Sources */,
 				BFC31FEF2E86BCF0000A1762 /* a1a2-selectortramps-arm.s in Sources */,
 				BFC31FF52E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s in Sources */,
+				BFEC8A7F2E8A54E10054368A /* NSURL+NJPath.m in Sources */,
+				BFEC8A802E8A54E10054368A /* UIApplication+NJCategory.m in Sources */,
+				BFEC8A812E8A54E10054368A /* UIViewController+NJFind.m in Sources */,
+				BFEC8A822E8A54E10054368A /* UIColor+NJColor.m in Sources */,
+				BFEC8A832E8A54E10054368A /* NJCommonDefine.m in Sources */,
+				BFEC8A842E8A54E10054368A /* NSBundle+NJLoadBundle.m in Sources */,
+				BFEC8A852E8A54E10054368A /* NJNetworkProxy.mm in Sources */,
+				BFEC8A862E8A54E10054368A /* NSBundle+NJBundleCategory.m in Sources */,
+				BFEC8A872E8A54E10054368A /* LaunchAd.mm in Sources */,
+				BFEC8A882E8A54E10054368A /* NSDate+NJCategory.m in Sources */,
+				BFEC8A892E8A54E10054368A /* HomeAd.mm in Sources */,
+				BFEC8A8A2E8A54E10054368A /* NJSSLProxy.m in Sources */,
+				BFEC8A8B2E8A54E10054368A /* NJAsset.m in Sources */,
+				BFEC8A8C2E8A54E10054368A /* NSBundle+NJImageLoading.m in Sources */,
+				BFEC8A8D2E8A54E10054368A /* UIImage+NJCategory.m in Sources */,
 				BFC31FFF2E86BCF0000A1762 /* OCMethodTrace.m in Sources */,
 				BFC31FE42E86BCF0000A1762 /* MDConfigManager.m in Sources */,
 				BFC320112E86BCF0000A1762 /* fishhook.c in Sources */,
@@ -579,21 +606,6 @@
 				BFC31FF72E86BCF0000A1762 /* a2a3-selectortramps-arm.s in Sources */,
 				BFC320092E86BCF0000A1762 /* LLDBTools.mm in Sources */,
 				BFC31FFB2E86BCF0000A1762 /* a2a3-selectortramps-x86_64.s in Sources */,
-				BF6A538F2E8A3241003CE5CD /* HomeAd.mm in Sources */,
-				BF6A53902E8A3241003CE5CD /* UIColor+NJColor.m in Sources */,
-				BF6A53912E8A3241003CE5CD /* NJAsset.m in Sources */,
-				BF6A53922E8A3241003CE5CD /* NJNetworkProxy.mm in Sources */,
-				BF6A53932E8A3241003CE5CD /* LaunchAd.mm in Sources */,
-				BF6A53942E8A3241003CE5CD /* UIImage+NJCategory.m in Sources */,
-				BF6A53952E8A3241003CE5CD /* NSBundle+NJBundleCategory.m in Sources */,
-				BF6A53962E8A3241003CE5CD /* NSBundle+NJLoadBundle.m in Sources */,
-				BF6A53972E8A3241003CE5CD /* NSURL+NJPath.m in Sources */,
-				BF6A53982E8A3241003CE5CD /* NJSSLProxy.m in Sources */,
-				BF6A53992E8A3241003CE5CD /* NSBundle+NJImageLoading.m in Sources */,
-				BF6A539A2E8A3241003CE5CD /* UIViewController+NJFind.m in Sources */,
-				BF6A539B2E8A3241003CE5CD /* UIApplication+NJCategory.m in Sources */,
-				BF6A539C2E8A3241003CE5CD /* NJCommonDefine.m in Sources */,
-				BF6A539D2E8A3241003CE5CD /* NSDate+NJCategory.m in Sources */,
 				BFC31FEC2E86BCF0000A1762 /* MDMethodTrace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
