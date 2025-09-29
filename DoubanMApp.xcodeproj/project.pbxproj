@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF6A538F2E8A3241003CE5CD /* HomeAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53812E8A3241003CE5CD /* HomeAd.mm */; };
+		BF6A53902E8A3241003CE5CD /* UIColor+NJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A537A2E8A3241003CE5CD /* UIColor+NJColor.m */; };
+		BF6A53912E8A3241003CE5CD /* NJAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A538B2E8A3241003CE5CD /* NJAsset.m */; };
+		BF6A53922E8A3241003CE5CD /* NJNetworkProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53852E8A3241003CE5CD /* NJNetworkProxy.mm */; };
+		BF6A53932E8A3241003CE5CD /* LaunchAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53832E8A3241003CE5CD /* LaunchAd.mm */; };
+		BF6A53942E8A3241003CE5CD /* UIImage+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A537C2E8A3241003CE5CD /* UIImage+NJCategory.m */; };
+		BF6A53952E8A3241003CE5CD /* NSBundle+NJBundleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A536E2E8A3241003CE5CD /* NSBundle+NJBundleCategory.m */; };
+		BF6A53962E8A3241003CE5CD /* NSBundle+NJLoadBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53722E8A3241003CE5CD /* NSBundle+NJLoadBundle.m */; };
+		BF6A53972E8A3241003CE5CD /* NSURL+NJPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53762E8A3241003CE5CD /* NSURL+NJPath.m */; };
+		BF6A53982E8A3241003CE5CD /* NJSSLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53882E8A3241003CE5CD /* NJSSLProxy.m */; };
+		BF6A53992E8A3241003CE5CD /* NSBundle+NJImageLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53702E8A3241003CE5CD /* NSBundle+NJImageLoading.m */; };
+		BF6A539A2E8A3241003CE5CD /* UIViewController+NJFind.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A537F2E8A3241003CE5CD /* UIViewController+NJFind.m */; };
+		BF6A539B2E8A3241003CE5CD /* UIApplication+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53782E8A3241003CE5CD /* UIApplication+NJCategory.m */; };
+		BF6A539C2E8A3241003CE5CD /* NJCommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A538D2E8A3241003CE5CD /* NJCommonDefine.m */; };
+		BF6A539D2E8A3241003CE5CD /* NSDate+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A53742E8A3241003CE5CD /* NSDate+NJCategory.m */; };
+		BF6A539E2E8A3241003CE5CD /* NJAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A538A2E8A3241003CE5CD /* NJAsset.h */; };
+		BF6A539F2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A537D2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h */; };
+		BF6A53A02E8A3241003CE5CD /* NSDate+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53732E8A3241003CE5CD /* NSDate+NJCategory.h */; };
+		BF6A53A12E8A3241003CE5CD /* NSBundle+NJImageLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A536F2E8A3241003CE5CD /* NSBundle+NJImageLoading.h */; };
+		BF6A53A22E8A3241003CE5CD /* UIViewController+NJFind.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A537E2E8A3241003CE5CD /* UIViewController+NJFind.h */; };
+		BF6A53A32E8A3241003CE5CD /* NSBundle+NJLoadBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53712E8A3241003CE5CD /* NSBundle+NJLoadBundle.h */; };
+		BF6A53A42E8A3241003CE5CD /* NSBundle+NJBundleCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A536D2E8A3241003CE5CD /* NSBundle+NJBundleCategory.h */; };
+		BF6A53A52E8A3241003CE5CD /* UIColor+NJColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53792E8A3241003CE5CD /* UIColor+NJColor.h */; };
+		BF6A53A62E8A3241003CE5CD /* NJCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A538C2E8A3241003CE5CD /* NJCommonDefine.h */; };
+		BF6A53A72E8A3241003CE5CD /* UIApplication+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53772E8A3241003CE5CD /* UIApplication+NJCategory.h */; };
+		BF6A53A82E8A3241003CE5CD /* UIImage+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A537B2E8A3241003CE5CD /* UIImage+NJCategory.h */; };
+		BF6A53A92E8A3241003CE5CD /* NSURL+NJPath.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53752E8A3241003CE5CD /* NSURL+NJPath.h */; };
+		BF6A53AA2E8A3241003CE5CD /* NJSSLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A53872E8A3241003CE5CD /* NJSSLProxy.h */; };
+		BFC31FD12E86BCF0000A1762 /* libDoubanMAppDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BFC31FD62E86BCF0000A1762 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */; };
+		BFC31FD82E86BCF0000A1762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD72E86BCF0000A1762 /* Foundation.framework */; };
+		BFC31FDA2E86BCF0000A1762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD92E86BCF0000A1762 /* UIKit.framework */; };
+		BFC31FE22E86BCF0000A1762 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC31FE12E86BCF0000A1762 /* MDConfigManager.h */; };
+		BFC31FE42E86BCF0000A1762 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FE32E86BCF0000A1762 /* MDConfigManager.m */; };
+		BFC31FE62E86BCF0000A1762 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC31FE52E86BCF0000A1762 /* MDCycriptManager.h */; };
+		BFC31FE82E86BCF0000A1762 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FE72E86BCF0000A1762 /* MDCycriptManager.m */; };
+		BFC31FEA2E86BCF0000A1762 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC31FE92E86BCF0000A1762 /* MDMethodTrace.h */; };
+		BFC31FEC2E86BCF0000A1762 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FEB2E86BCF0000A1762 /* MDMethodTrace.m */; };
+		BFC31FEF2E86BCF0000A1762 /* a1a2-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FEE2E86BCF0000A1762 /* a1a2-selectortramps-arm.s */; };
+		BFC31FF12E86BCF0000A1762 /* a1a2-selectortramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FF02E86BCF0000A1762 /* a1a2-selectortramps-arm64.s */; };
+		BFC31FF32E86BCF0000A1762 /* a1a2-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FF22E86BCF0000A1762 /* a1a2-selectortramps-i386.s */; };
+		BFC31FF52E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FF42E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s */; };
+		BFC31FF72E86BCF0000A1762 /* a2a3-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FF62E86BCF0000A1762 /* a2a3-selectortramps-arm.s */; };
+		BFC31FF92E86BCF0000A1762 /* a2a3-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FF82E86BCF0000A1762 /* a2a3-selectortramps-i386.s */; };
+		BFC31FFB2E86BCF0000A1762 /* a2a3-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FFA2E86BCF0000A1762 /* a2a3-selectortramps-x86_64.s */; };
+		BFC31FFD2E86BCF0000A1762 /* OCMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC31FFC2E86BCF0000A1762 /* OCMethodTrace.h */; };
+		BFC31FFF2E86BCF0000A1762 /* OCMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC31FFE2E86BCF0000A1762 /* OCMethodTrace.m */; };
+		BFC320012E86BCF0000A1762 /* OCSelectorTrampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC320002E86BCF0000A1762 /* OCSelectorTrampolines.h */; };
+		BFC320032E86BCF0000A1762 /* OCSelectorTrampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC320022E86BCF0000A1762 /* OCSelectorTrampolines.mm */; };
+		BFC320072E86BCF0000A1762 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC320062E86BCF0000A1762 /* LLDBTools.h */; };
+		BFC320092E86BCF0000A1762 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC320082E86BCF0000A1762 /* LLDBTools.mm */; };
+		BFC3200E2E86BCF0000A1762 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC3200D2E86BCF0000A1762 /* AntiAntiDebug.m */; };
+		BFC320112E86BCF0000A1762 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = BFC320102E86BCF0000A1762 /* fishhook.c */; };
+		BFC320132E86BCF0000A1762 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC320122E86BCF0000A1762 /* fishhook.h */; };
+		BFC320152E86BCF0000A1762 /* DoubanMAppDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC320142E86BCF0000A1762 /* DoubanMAppDylib.h */; };
+		BFC320172E86BCF0000A1762 /* DoubanMAppDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC320162E86BCF0000A1762 /* DoubanMAppDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC31FD22E86BCF0000A1762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC31FB42E86BCF0000A1762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC31FCF2E86BCF0000A1762;
+			remoteInfo = DoubanMAppDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFC31FBC2E86BCF0000A1762 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFC31FD12E86BCF0000A1762 /* libDoubanMAppDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF6A536D2E8A3241003CE5CD /* NSBundle+NJBundleCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJBundleCategory.h"; sourceTree = "<group>"; };
+		BF6A536E2E8A3241003CE5CD /* NSBundle+NJBundleCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJBundleCategory.m"; sourceTree = "<group>"; };
+		BF6A536F2E8A3241003CE5CD /* NSBundle+NJImageLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJImageLoading.h"; sourceTree = "<group>"; };
+		BF6A53702E8A3241003CE5CD /* NSBundle+NJImageLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJImageLoading.m"; sourceTree = "<group>"; };
+		BF6A53712E8A3241003CE5CD /* NSBundle+NJLoadBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJLoadBundle.h"; sourceTree = "<group>"; };
+		BF6A53722E8A3241003CE5CD /* NSBundle+NJLoadBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJLoadBundle.m"; sourceTree = "<group>"; };
+		BF6A53732E8A3241003CE5CD /* NSDate+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+NJCategory.h"; sourceTree = "<group>"; };
+		BF6A53742E8A3241003CE5CD /* NSDate+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NJCategory.m"; sourceTree = "<group>"; };
+		BF6A53752E8A3241003CE5CD /* NSURL+NJPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+NJPath.h"; sourceTree = "<group>"; };
+		BF6A53762E8A3241003CE5CD /* NSURL+NJPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NJPath.m"; sourceTree = "<group>"; };
+		BF6A53772E8A3241003CE5CD /* UIApplication+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NJCategory.h"; sourceTree = "<group>"; };
+		BF6A53782E8A3241003CE5CD /* UIApplication+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NJCategory.m"; sourceTree = "<group>"; };
+		BF6A53792E8A3241003CE5CD /* UIColor+NJColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+NJColor.h"; sourceTree = "<group>"; };
+		BF6A537A2E8A3241003CE5CD /* UIColor+NJColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NJColor.m"; sourceTree = "<group>"; };
+		BF6A537B2E8A3241003CE5CD /* UIImage+NJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+NJCategory.h"; sourceTree = "<group>"; };
+		BF6A537C2E8A3241003CE5CD /* UIImage+NJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NJCategory.m"; sourceTree = "<group>"; };
+		BF6A537D2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BBSFreeDataWebCache.h"; sourceTree = "<group>"; };
+		BF6A537E2E8A3241003CE5CD /* UIViewController+NJFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NJFind.h"; sourceTree = "<group>"; };
+		BF6A537F2E8A3241003CE5CD /* UIViewController+NJFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NJFind.m"; sourceTree = "<group>"; };
+		BF6A53812E8A3241003CE5CD /* HomeAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HomeAd.mm; sourceTree = "<group>"; };
+		BF6A53822E8A3241003CE5CD /* HomeAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = HomeAd.xm; sourceTree = "<group>"; };
+		BF6A53832E8A3241003CE5CD /* LaunchAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LaunchAd.mm; sourceTree = "<group>"; };
+		BF6A53842E8A3241003CE5CD /* LaunchAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = LaunchAd.xm; sourceTree = "<group>"; };
+		BF6A53852E8A3241003CE5CD /* NJNetworkProxy.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetworkProxy.mm; sourceTree = "<group>"; };
+		BF6A53862E8A3241003CE5CD /* NJNetworkProxy.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NJNetworkProxy.xm; sourceTree = "<group>"; };
+		BF6A53872E8A3241003CE5CD /* NJSSLProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJSSLProxy.h; sourceTree = "<group>"; };
+		BF6A53882E8A3241003CE5CD /* NJSSLProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJSSLProxy.m; sourceTree = "<group>"; };
+		BF6A538A2E8A3241003CE5CD /* NJAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAsset.h; sourceTree = "<group>"; };
+		BF6A538B2E8A3241003CE5CD /* NJAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAsset.m; sourceTree = "<group>"; };
+		BF6A538C2E8A3241003CE5CD /* NJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCommonDefine.h; sourceTree = "<group>"; };
+		BF6A538D2E8A3241003CE5CD /* NJCommonDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCommonDefine.m; sourceTree = "<group>"; };
+		BFC31FBF2E86BCF0000A1762 /* DoubanMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDoubanMAppDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BFC31FD72E86BCF0000A1762 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFC31FD92E86BCF0000A1762 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFC31FE12E86BCF0000A1762 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfigManager.h; sourceTree = "<group>"; };
+		BFC31FE32E86BCF0000A1762 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConfigManager.m; sourceTree = "<group>"; };
+		BFC31FE52E86BCF0000A1762 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCycriptManager.h; sourceTree = "<group>"; };
+		BFC31FE72E86BCF0000A1762 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCycriptManager.m; sourceTree = "<group>"; };
+		BFC31FE92E86BCF0000A1762 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMethodTrace.h; sourceTree = "<group>"; };
+		BFC31FEB2E86BCF0000A1762 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMethodTrace.m; sourceTree = "<group>"; };
+		BFC31FEE2E86BCF0000A1762 /* a1a2-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm.s"; sourceTree = "<group>"; };
+		BFC31FF02E86BCF0000A1762 /* a1a2-selectortramps-arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm64.s"; sourceTree = "<group>"; };
+		BFC31FF22E86BCF0000A1762 /* a1a2-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-i386.s"; sourceTree = "<group>"; };
+		BFC31FF42E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		BFC31FF62E86BCF0000A1762 /* a2a3-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-arm.s"; sourceTree = "<group>"; };
+		BFC31FF82E86BCF0000A1762 /* a2a3-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-i386.s"; sourceTree = "<group>"; };
+		BFC31FFA2E86BCF0000A1762 /* a2a3-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		BFC31FFC2E86BCF0000A1762 /* OCMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMethodTrace.h; sourceTree = "<group>"; };
+		BFC31FFE2E86BCF0000A1762 /* OCMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMethodTrace.m; sourceTree = "<group>"; };
+		BFC320002E86BCF0000A1762 /* OCSelectorTrampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSelectorTrampolines.h; sourceTree = "<group>"; };
+		BFC320022E86BCF0000A1762 /* OCSelectorTrampolines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCSelectorTrampolines.mm; sourceTree = "<group>"; };
+		BFC320042E86BCF0000A1762 /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = selectortramps.mac; sourceTree = "<group>"; };
+		BFC320062E86BCF0000A1762 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDBTools.h; sourceTree = "<group>"; };
+		BFC320082E86BCF0000A1762 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LLDBTools.mm; sourceTree = "<group>"; };
+		BFC3200B2E86BCF0000A1762 /* DoubanMAppDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DoubanMAppDylib-Prefix.pch"; path = "../DoubanMAppDylib-Prefix.pch"; sourceTree = "<group>"; };
+		BFC3200D2E86BCF0000A1762 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiAntiDebug.m; sourceTree = "<group>"; };
+		BFC320102E86BCF0000A1762 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		BFC320122E86BCF0000A1762 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		BFC320142E86BCF0000A1762 /* DoubanMAppDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubanMAppDylib.h; sourceTree = "<group>"; };
+		BFC320162E86BCF0000A1762 /* DoubanMAppDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanMAppDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BFC320182E86BCF0000A1762 /* Exceptions for "DoubanMApp" folder in "DoubanMApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				icon.png,
+				Info.plist,
+				"Scripts/quick-resign.sh",
+				"TargetApp/put ipa or app here",
+			);
+			target = BFC31FBE2E86BCF0000A1762 /* DoubanMApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BFC31FC12E86BCF0000A1762 /* DoubanMApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BFC320182E86BCF0000A1762 /* Exceptions for "DoubanMApp" folder in "DoubanMApp" target */,
+			);
+			path = DoubanMApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC31FB92E86BCF0000A1762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC31FCD2E86BCF0000A1762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC31FD62E86BCF0000A1762 /* JavaScriptCore.framework in Frameworks */,
+				BFC31FDA2E86BCF0000A1762 /* UIKit.framework in Frameworks */,
+				BFC31FD82E86BCF0000A1762 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF6A53802E8A3241003CE5CD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A536D2E8A3241003CE5CD /* NSBundle+NJBundleCategory.h */,
+				BF6A536E2E8A3241003CE5CD /* NSBundle+NJBundleCategory.m */,
+				BF6A536F2E8A3241003CE5CD /* NSBundle+NJImageLoading.h */,
+				BF6A53702E8A3241003CE5CD /* NSBundle+NJImageLoading.m */,
+				BF6A53712E8A3241003CE5CD /* NSBundle+NJLoadBundle.h */,
+				BF6A53722E8A3241003CE5CD /* NSBundle+NJLoadBundle.m */,
+				BF6A53732E8A3241003CE5CD /* NSDate+NJCategory.h */,
+				BF6A53742E8A3241003CE5CD /* NSDate+NJCategory.m */,
+				BF6A53752E8A3241003CE5CD /* NSURL+NJPath.h */,
+				BF6A53762E8A3241003CE5CD /* NSURL+NJPath.m */,
+				BF6A53772E8A3241003CE5CD /* UIApplication+NJCategory.h */,
+				BF6A53782E8A3241003CE5CD /* UIApplication+NJCategory.m */,
+				BF6A53792E8A3241003CE5CD /* UIColor+NJColor.h */,
+				BF6A537A2E8A3241003CE5CD /* UIColor+NJColor.m */,
+				BF6A537B2E8A3241003CE5CD /* UIImage+NJCategory.h */,
+				BF6A537C2E8A3241003CE5CD /* UIImage+NJCategory.m */,
+				BF6A537D2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h */,
+				BF6A537E2E8A3241003CE5CD /* UIViewController+NJFind.h */,
+				BF6A537F2E8A3241003CE5CD /* UIViewController+NJFind.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BF6A53892E8A3241003CE5CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A53852E8A3241003CE5CD /* NJNetworkProxy.mm */,
+				BF6A53862E8A3241003CE5CD /* NJNetworkProxy.xm */,
+				BF6A53872E8A3241003CE5CD /* NJSSLProxy.h */,
+				BF6A53882E8A3241003CE5CD /* NJSSLProxy.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF6A538E2E8A3241003CE5CD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A538A2E8A3241003CE5CD /* NJAsset.h */,
+				BF6A538B2E8A3241003CE5CD /* NJAsset.m */,
+				BF6A538C2E8A3241003CE5CD /* NJCommonDefine.h */,
+				BF6A538D2E8A3241003CE5CD /* NJCommonDefine.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BFC31FB32E86BCF0000A1762 = {
+			isa = PBXGroup;
+			children = (
+				BFC31FC12E86BCF0000A1762 /* DoubanMApp */,
+				BFC31FDB2E86BCF0000A1762 /* DoubanMAppDylib */,
+				BFC31FD42E86BCF0000A1762 /* Frameworks */,
+				BFC31FC02E86BCF0000A1762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC31FC02E86BCF0000A1762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC31FBF2E86BCF0000A1762 /* DoubanMApp.app */,
+				BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC31FD42E86BCF0000A1762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */,
+				BFC31FD72E86BCF0000A1762 /* Foundation.framework */,
+				BFC31FD92E86BCF0000A1762 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC31FDB2E86BCF0000A1762 /* DoubanMAppDylib */ = {
+			isa = PBXGroup;
+			children = (
+				BFC320142E86BCF0000A1762 /* DoubanMAppDylib.h */,
+				BFC320162E86BCF0000A1762 /* DoubanMAppDylib.m */,
+				BFC31FDC2E86BCF0000A1762 /* Logos */,
+				BFC31FE02E86BCF0000A1762 /* Config */,
+				BFC31FED2E86BCF0000A1762 /* Trace */,
+				BFC320052E86BCF0000A1762 /* Tools */,
+				BFC3200C2E86BCF0000A1762 /* AntiAntiDebug */,
+				BFC3200F2E86BCF0000A1762 /* fishhook */,
+				BFC3200A2E86BCF0000A1762 /* Supporting Files */,
+			);
+			path = DoubanMAppDylib;
+			sourceTree = "<group>";
+		};
+		BFC31FDC2E86BCF0000A1762 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A53802E8A3241003CE5CD /* Category */,
+				BF6A53812E8A3241003CE5CD /* HomeAd.mm */,
+				BF6A53822E8A3241003CE5CD /* HomeAd.xm */,
+				BF6A53832E8A3241003CE5CD /* LaunchAd.mm */,
+				BF6A53842E8A3241003CE5CD /* LaunchAd.xm */,
+				BF6A53892E8A3241003CE5CD /* Network */,
+				BF6A538E2E8A3241003CE5CD /* Tool */,
+			);
+			path = Logos;
+			sourceTree = "<group>";
+		};
+		BFC31FE02E86BCF0000A1762 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BFC31FE12E86BCF0000A1762 /* MDConfigManager.h */,
+				BFC31FE32E86BCF0000A1762 /* MDConfigManager.m */,
+				BFC31FE52E86BCF0000A1762 /* MDCycriptManager.h */,
+				BFC31FE72E86BCF0000A1762 /* MDCycriptManager.m */,
+				BFC31FE92E86BCF0000A1762 /* MDMethodTrace.h */,
+				BFC31FEB2E86BCF0000A1762 /* MDMethodTrace.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BFC31FED2E86BCF0000A1762 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				BFC31FEE2E86BCF0000A1762 /* a1a2-selectortramps-arm.s */,
+				BFC31FF02E86BCF0000A1762 /* a1a2-selectortramps-arm64.s */,
+				BFC31FF22E86BCF0000A1762 /* a1a2-selectortramps-i386.s */,
+				BFC31FF42E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s */,
+				BFC31FF62E86BCF0000A1762 /* a2a3-selectortramps-arm.s */,
+				BFC31FF82E86BCF0000A1762 /* a2a3-selectortramps-i386.s */,
+				BFC31FFA2E86BCF0000A1762 /* a2a3-selectortramps-x86_64.s */,
+				BFC31FFC2E86BCF0000A1762 /* OCMethodTrace.h */,
+				BFC31FFE2E86BCF0000A1762 /* OCMethodTrace.m */,
+				BFC320002E86BCF0000A1762 /* OCSelectorTrampolines.h */,
+				BFC320022E86BCF0000A1762 /* OCSelectorTrampolines.mm */,
+				BFC320042E86BCF0000A1762 /* selectortramps.mac */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		BFC320052E86BCF0000A1762 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BFC320062E86BCF0000A1762 /* LLDBTools.h */,
+				BFC320082E86BCF0000A1762 /* LLDBTools.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BFC3200A2E86BCF0000A1762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC3200B2E86BCF0000A1762 /* DoubanMAppDylib-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC3200C2E86BCF0000A1762 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				BFC3200D2E86BCF0000A1762 /* AntiAntiDebug.m */,
+			);
+			path = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		BFC3200F2E86BCF0000A1762 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				BFC320102E86BCF0000A1762 /* fishhook.c */,
+				BFC320122E86BCF0000A1762 /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFC31FCE2E86BCF0000A1762 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC31FE62E86BCF0000A1762 /* MDCycriptManager.h in Headers */,
+				BF6A539E2E8A3241003CE5CD /* NJAsset.h in Headers */,
+				BF6A539F2E8A3241003CE5CD /* UIImageView+BBSFreeDataWebCache.h in Headers */,
+				BF6A53A02E8A3241003CE5CD /* NSDate+NJCategory.h in Headers */,
+				BF6A53A12E8A3241003CE5CD /* NSBundle+NJImageLoading.h in Headers */,
+				BF6A53A22E8A3241003CE5CD /* UIViewController+NJFind.h in Headers */,
+				BF6A53A32E8A3241003CE5CD /* NSBundle+NJLoadBundle.h in Headers */,
+				BF6A53A42E8A3241003CE5CD /* NSBundle+NJBundleCategory.h in Headers */,
+				BF6A53A52E8A3241003CE5CD /* UIColor+NJColor.h in Headers */,
+				BF6A53A62E8A3241003CE5CD /* NJCommonDefine.h in Headers */,
+				BF6A53A72E8A3241003CE5CD /* UIApplication+NJCategory.h in Headers */,
+				BF6A53A82E8A3241003CE5CD /* UIImage+NJCategory.h in Headers */,
+				BF6A53A92E8A3241003CE5CD /* NSURL+NJPath.h in Headers */,
+				BF6A53AA2E8A3241003CE5CD /* NJSSLProxy.h in Headers */,
+				BFC31FEA2E86BCF0000A1762 /* MDMethodTrace.h in Headers */,
+				BFC320152E86BCF0000A1762 /* DoubanMAppDylib.h in Headers */,
+				BFC320132E86BCF0000A1762 /* fishhook.h in Headers */,
+				BFC320072E86BCF0000A1762 /* LLDBTools.h in Headers */,
+				BFC31FE22E86BCF0000A1762 /* MDConfigManager.h in Headers */,
+				BFC320012E86BCF0000A1762 /* OCSelectorTrampolines.h in Headers */,
+				BFC31FFD2E86BCF0000A1762 /* OCMethodTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFC31FBE2E86BCF0000A1762 /* DoubanMApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC3201C2E86BCF0000A1762 /* Build configuration list for PBXNativeTarget "DoubanMApp" */;
+			buildPhases = (
+				BFC31FB82E86BCF0000A1762 /* Sources */,
+				BFC31FB92E86BCF0000A1762 /* Frameworks */,
+				BFC31FBA2E86BCF0000A1762 /* ShellScript */,
+				BFC31FBB2E86BCF0000A1762 /* Resources */,
+				BFC31FBC2E86BCF0000A1762 /* CopyFiles */,
+				BFC31FBD2E86BCF0000A1762 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC31FD32E86BCF0000A1762 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BFC31FC12E86BCF0000A1762 /* DoubanMApp */,
+			);
+			name = DoubanMApp;
+			packageProductDependencies = (
+			);
+			productName = DoubanMApp;
+			productReference = BFC31FBF2E86BCF0000A1762 /* DoubanMApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC31FCF2E86BCF0000A1762 /* DoubanMAppDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC320192E86BCF0000A1762 /* Build configuration list for PBXNativeTarget "DoubanMAppDylib" */;
+			buildPhases = (
+				BFC31FCB2E86BCF0000A1762 /* ShellScript */,
+				BFC31FCC2E86BCF0000A1762 /* Sources */,
+				BFC31FCD2E86BCF0000A1762 /* Frameworks */,
+				BFC31FCE2E86BCF0000A1762 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanMAppDylib;
+			packageProductDependencies = (
+			);
+			productName = DoubanMAppDylib;
+			productReference = BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC31FB42E86BCF0000A1762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BFC31FBE2E86BCF0000A1762 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BFC31FCF2E86BCF0000A1762 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = BFC31FB72E86BCF0000A1762 /* Build configuration list for PBXProject "DoubanMApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC31FB32E86BCF0000A1762;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BFC31FC02E86BCF0000A1762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC31FBE2E86BCF0000A1762 /* DoubanMApp */,
+				BFC31FCF2E86BCF0000A1762 /* DoubanMAppDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC31FBB2E86BCF0000A1762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFC31FBA2E86BCF0000A1762 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		BFC31FBD2E86BCF0000A1762 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		BFC31FCB2E86BCF0000A1762 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC31FB82E86BCF0000A1762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC31FCC2E86BCF0000A1762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC31FE82E86BCF0000A1762 /* MDCycriptManager.m in Sources */,
+				BFC320172E86BCF0000A1762 /* DoubanMAppDylib.m in Sources */,
+				BFC31FF12E86BCF0000A1762 /* a1a2-selectortramps-arm64.s in Sources */,
+				BFC31FEF2E86BCF0000A1762 /* a1a2-selectortramps-arm.s in Sources */,
+				BFC31FF52E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s in Sources */,
+				BFC31FFF2E86BCF0000A1762 /* OCMethodTrace.m in Sources */,
+				BFC31FE42E86BCF0000A1762 /* MDConfigManager.m in Sources */,
+				BFC320112E86BCF0000A1762 /* fishhook.c in Sources */,
+				BFC3200E2E86BCF0000A1762 /* AntiAntiDebug.m in Sources */,
+				BFC320032E86BCF0000A1762 /* OCSelectorTrampolines.mm in Sources */,
+				BFC31FF32E86BCF0000A1762 /* a1a2-selectortramps-i386.s in Sources */,
+				BFC31FF92E86BCF0000A1762 /* a2a3-selectortramps-i386.s in Sources */,
+				BFC31FF72E86BCF0000A1762 /* a2a3-selectortramps-arm.s in Sources */,
+				BFC320092E86BCF0000A1762 /* LLDBTools.mm in Sources */,
+				BFC31FFB2E86BCF0000A1762 /* a2a3-selectortramps-x86_64.s in Sources */,
+				BF6A538F2E8A3241003CE5CD /* HomeAd.mm in Sources */,
+				BF6A53902E8A3241003CE5CD /* UIColor+NJColor.m in Sources */,
+				BF6A53912E8A3241003CE5CD /* NJAsset.m in Sources */,
+				BF6A53922E8A3241003CE5CD /* NJNetworkProxy.mm in Sources */,
+				BF6A53932E8A3241003CE5CD /* LaunchAd.mm in Sources */,
+				BF6A53942E8A3241003CE5CD /* UIImage+NJCategory.m in Sources */,
+				BF6A53952E8A3241003CE5CD /* NSBundle+NJBundleCategory.m in Sources */,
+				BF6A53962E8A3241003CE5CD /* NSBundle+NJLoadBundle.m in Sources */,
+				BF6A53972E8A3241003CE5CD /* NSURL+NJPath.m in Sources */,
+				BF6A53982E8A3241003CE5CD /* NJSSLProxy.m in Sources */,
+				BF6A53992E8A3241003CE5CD /* NSBundle+NJImageLoading.m in Sources */,
+				BF6A539A2E8A3241003CE5CD /* UIViewController+NJFind.m in Sources */,
+				BF6A539B2E8A3241003CE5CD /* UIApplication+NJCategory.m in Sources */,
+				BF6A539C2E8A3241003CE5CD /* NJCommonDefine.m in Sources */,
+				BF6A539D2E8A3241003CE5CD /* NSDate+NJCategory.m in Sources */,
+				BFC31FEC2E86BCF0000A1762 /* MDMethodTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC31FD32E86BCF0000A1762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC31FCF2E86BCF0000A1762 /* DoubanMAppDylib */;
+			targetProxy = BFC31FD22E86BCF0000A1762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFC3201A2E86BCF0000A1762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E435LNP339;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubanMAppDylib/DoubanMAppDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libDoubanMAppDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"DoubanMAppDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					LookinServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		BFC3201B2E86BCF0000A1762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = E435LNP339;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubanMAppDylib/DoubanMAppDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libDoubanMAppDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"DoubanMAppDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFC3201D2E86BCF0000A1762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E435LNP339;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = "豆瓣";
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douban.frodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC3201E2E86BCF0000A1762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E435LNP339;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = "豆瓣";
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douban.frodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFC3201F2E86BCF0000A1762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFC320202E86BCF0000A1762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC31FB72E86BCF0000A1762 /* Build configuration list for PBXProject "DoubanMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC3201F2E86BCF0000A1762 /* Debug */,
+				BFC320202E86BCF0000A1762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC320192E86BCF0000A1762 /* Build configuration list for PBXNativeTarget "DoubanMAppDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC3201A2E86BCF0000A1762 /* Debug */,
+				BFC3201B2E86BCF0000A1762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC3201C2E86BCF0000A1762 /* Build configuration list for PBXNativeTarget "DoubanMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC3201D2E86BCF0000A1762 /* Debug */,
+				BFC3201E2E86BCF0000A1762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC31FB42E86BCF0000A1762 /* Project object */;
+}
