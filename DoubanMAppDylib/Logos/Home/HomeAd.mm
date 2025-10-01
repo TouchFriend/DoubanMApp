@@ -1,4 +1,4 @@
-#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/HomeAd.xm"
+#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Home/HomeAd.xm"
 
 
 #import <UIKit/UIKit.h>
@@ -31,7 +31,7 @@ __asm__(".linker_option \"-framework\", \"CydiaSubstrate\"");
 @class DOUFrodoAdInfo; 
 static DOUFrodoAdInfo* (*_logos_orig$_ungrouped$DOUFrodoAdInfo$init)(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* _logos_method$_ungrouped$DOUFrodoAdInfo$init(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* (*_logos_orig$_ungrouped$DOUFrodoAdInfo$initWithDictionary$)(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* _logos_method$_ungrouped$DOUFrodoAdInfo$initWithDictionary$(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* (*_logos_orig$_ungrouped$DOUFrodoAdInfo$initWithString$)(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* _logos_method$_ungrouped$DOUFrodoAdInfo$initWithString$(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* (*_logos_orig$_ungrouped$DOUFrodoAdInfo$initWithData$)(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUFrodoAdInfo* _logos_method$_ungrouped$DOUFrodoAdInfo$initWithData$(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo*, SEL, id) _LOGOS_RETURN_RETAINED; 
 
-#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/HomeAd.xm"
+#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Home/HomeAd.xm"
 
 
 static DOUFrodoAdInfo* _logos_method$_ungrouped$DOUFrodoAdInfo$init(_LOGOS_SELF_TYPE_INIT DOUFrodoAdInfo* __unused self, SEL __unused _cmd) _LOGOS_RETURN_RETAINED {
@@ -53,4 +53,4 @@ static DOUFrodoAdInfo* _logos_method$_ungrouped$DOUFrodoAdInfo$initWithData$(_LO
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$DOUFrodoAdInfo = objc_getClass("DOUFrodoAdInfo"); { MSHookMessageEx(_logos_class$_ungrouped$DOUFrodoAdInfo, @selector(init), (IMP)&_logos_method$_ungrouped$DOUFrodoAdInfo$init, (IMP*)&_logos_orig$_ungrouped$DOUFrodoAdInfo$init);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUFrodoAdInfo, @selector(initWithDictionary:), (IMP)&_logos_method$_ungrouped$DOUFrodoAdInfo$initWithDictionary$, (IMP*)&_logos_orig$_ungrouped$DOUFrodoAdInfo$initWithDictionary$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUFrodoAdInfo, @selector(initWithString:), (IMP)&_logos_method$_ungrouped$DOUFrodoAdInfo$initWithString$, (IMP*)&_logos_orig$_ungrouped$DOUFrodoAdInfo$initWithString$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUFrodoAdInfo, @selector(initWithData:), (IMP)&_logos_method$_ungrouped$DOUFrodoAdInfo$initWithData$, (IMP*)&_logos_orig$_ungrouped$DOUFrodoAdInfo$initWithData$);}} }
-#line 26 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/HomeAd.xm"
+#line 26 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Home/HomeAd.xm"
