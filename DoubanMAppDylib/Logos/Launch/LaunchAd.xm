@@ -33,6 +33,18 @@
 
 %end
 
+// 开屏广告-屏蔽部分广告请求
+%hook DOUADAPIClient
+
+- (void)_sendRequest:(id)request success:(id)success failure:(void (^)(NSError *error))failure {
+    if (failure) {
+        failure([NSError errorWithDomain:NSURLErrorDomain code:NSURLErrorTimedOut userInfo:nil]);
+    }
+}
+
+%end
+ 
+
 %ctor {
     %init(FRDBaseDoodleViewController = objc_getClass("Frodo.FRDBaseDoodleViewController"));
 }

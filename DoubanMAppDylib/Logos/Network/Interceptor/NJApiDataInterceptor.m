@@ -9,6 +9,7 @@
 #import "NJApiDataItem.h"
 #import "NSURL+NJPath.h"
 #import "NJHomeBannerDataItem.h"
+#import "NJHomeAdsDataItem.h"
 
 @interface NJApiDataInterceptor ()
 
@@ -135,7 +136,8 @@ didCompleteWithError:error
 
 - (NSArray<Class> *)itemClasses {
     if (!_itemClasses) {
-        _itemClasses = @[[NJHomeBannerDataItem class],            // 首页-banner
+        _itemClasses = @[[NJHomeBannerDataItem class],          // 首页-banner
+                         [NJHomeAdsDataItem class],             // 首页广告
         ];
     }
     return _itemClasses;
