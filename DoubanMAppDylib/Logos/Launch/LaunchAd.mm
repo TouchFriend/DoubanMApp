@@ -1,4 +1,4 @@
-#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Launch/LaunchAd.xm"
+#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Launch/LaunchAd.xm"
 
 
 #import <UIKit/UIKit.h>
@@ -28,10 +28,10 @@
 
 __asm__(".linker_option \"-framework\", \"CydiaSubstrate\"");
 
-@class DOUAdvertisement; @class DOUADAPIClient; @class FRDBaseDoodleViewController; 
+@class DOUADAPIClient; @class FRDBaseDoodleViewController; @class DOUAdvertisement; 
 static id (*_logos_orig$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$)(_LOGOS_SELF_TYPE_INIT id, SEL, id, id) _LOGOS_RETURN_RETAINED; static id _logos_method$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$(_LOGOS_SELF_TYPE_INIT id, SEL, id, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$init)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$init(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithDictionary$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithDictionary$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithString$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithString$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithData$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithData$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$)(_LOGOS_SELF_TYPE_NORMAL DOUADAPIClient* _LOGOS_SELF_CONST, SEL, id, id, void (^)(NSError *error)); static void _logos_method$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$(_LOGOS_SELF_TYPE_NORMAL DOUADAPIClient* _LOGOS_SELF_CONST, SEL, id, id, void (^)(NSError *error)); 
 
-#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Launch/LaunchAd.xm"
+#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Launch/LaunchAd.xm"
 
 
 static id _logos_method$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$(_LOGOS_SELF_TYPE_INIT id __unused self, SEL __unused _cmd, id name, id bundle) _LOGOS_RETURN_RETAINED {

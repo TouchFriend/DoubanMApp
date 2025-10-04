@@ -50,7 +50,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>7.97.0</string>
+	<string>7.109.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -133,11 +133,11 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>07970003</string>
+	<string>071090003</string>
 	<key>DOUPublishChannel</key>
 	<string>AppStore</string>
 	<key>DTAppStoreToolsBuild</key>
-	<string>16C7015</string>
+	<string>16F7</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -233,9 +233,9 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>豆瓣申请获取你的位置权限，用于电影票务、同城活动、信息推送、广告服务。</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>用于选取图片设置头像、发布图片或视频，以及保存图片到设备。</string>
+	<string>用于选取图片、发布图片或视频，以及保存图片到设备。</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>用于扫一扫、设置封面、设置头像、提交反馈，发布图片或视频，保存图片到设备，以及文字识别功能。</string>
+	<string>用于提交反馈，发布图片或视频，保存图片到设备，以及文字识别功能。</string>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>com.douban.frodo.UserActivity</string>
