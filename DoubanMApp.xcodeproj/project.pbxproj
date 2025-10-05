@@ -183,6 +183,7 @@
 		BFC320182E86BCF0000A1762 /* Exceptions for "DoubanMApp" folder in "DoubanMApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Info.plist,
 				"Scripts/quick-resign.sh",
 				"TargetApp/put ipa or app here",
 			);

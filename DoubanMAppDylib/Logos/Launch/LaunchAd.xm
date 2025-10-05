@@ -31,6 +31,10 @@
     return nil;
 }
 
+- (id)initWithCoder:(id)coder {
+    return nil;
+}
+
 %end
 
 // 开屏广告-屏蔽部分广告请求
