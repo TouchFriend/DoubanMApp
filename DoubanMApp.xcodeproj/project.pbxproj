@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF9FA1722E97A6B8005212BC /* SSLKillSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9FA1702E97A6B8005212BC /* SSLKillSwitch.m */; };
+		BF9FA1732E97A6B8005212BC /* SSLKillSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9FA16F2E97A6B8005212BC /* SSLKillSwitch.h */; };
 		BFBF84D82E90F18C00CB9D09 /* NJHomeAdsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84BB2E90F18C00CB9D09 /* NJHomeAdsDataItem.m */; };
 		BFBF84D92E90F18C00CB9D09 /* UIImage+NJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84B42E90F18C00CB9D09 /* UIImage+NJCategory.m */; };
-		BFBF84DA2E90F18C00CB9D09 /* NJNetworkProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84CB2E90F18C00CB9D09 /* NJNetworkProxy.mm */; };
 		BFBF84DB2E90F18C00CB9D09 /* NJApiDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84C52E90F18C00CB9D09 /* NJApiDataItem.m */; };
 		BFBF84DC2E90F18C00CB9D09 /* UIColor+NJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84B22E90F18C00CB9D09 /* UIColor+NJColor.m */; };
 		BFBF84DD2E90F18C00CB9D09 /* NSBundle+NJBundleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84A62E90F18C00CB9D09 /* NSBundle+NJBundleCategory.m */; };
@@ -27,13 +28,11 @@
 		BFBF84E92E90F18C00CB9D09 /* NJNetwork.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84C92E90F18C00CB9D09 /* NJNetwork.mm */; };
 		BFBF84EA2E90F18C00CB9D09 /* NSBundle+NJImageLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84A82E90F18C00CB9D09 /* NSBundle+NJImageLoading.m */; };
 		BFBF84EB2E90F18C00CB9D09 /* NJCommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84D62E90F18C00CB9D09 /* NJCommonDefine.m */; };
-		BFBF84EC2E90F18C00CB9D09 /* NJSSLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84CE2E90F18C00CB9D09 /* NJSSLProxy.m */; };
 		BFBF84ED2E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF84C72E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.m */; };
 		BFBF84EE2E90F18C00CB9D09 /* NJCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84D52E90F18C00CB9D09 /* NJCommonDefine.h */; };
 		BFBF84EF2E90F18C00CB9D09 /* NSDate+NJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84AB2E90F18C00CB9D09 /* NSDate+NJCategory.h */; };
 		BFBF84F02E90F18C00CB9D09 /* NSBundle+NJLoadBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84A92E90F18C00CB9D09 /* NSBundle+NJLoadBundle.h */; };
 		BFBF84F12E90F18C00CB9D09 /* UIViewController+NJFind.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84B52E90F18C00CB9D09 /* UIViewController+NJFind.h */; };
-		BFBF84F22E90F18C00CB9D09 /* NJSSLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84CD2E90F18C00CB9D09 /* NJSSLProxy.h */; };
 		BFBF84F32E90F18C00CB9D09 /* NSBundle+NJImageLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84A72E90F18C00CB9D09 /* NSBundle+NJImageLoading.h */; };
 		BFBF84F42E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84C62E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.h */; };
 		BFBF84F52E90F18C00CB9D09 /* NJApiDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF84C42E90F18C00CB9D09 /* NJApiDataItem.h */; };
@@ -101,6 +100,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF9FA16F2E97A6B8005212BC /* SSLKillSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLKillSwitch.h; sourceTree = "<group>"; };
+		BF9FA1702E97A6B8005212BC /* SSLKillSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLKillSwitch.m; sourceTree = "<group>"; };
 		BFBF84A52E90F18C00CB9D09 /* NSBundle+NJBundleCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJBundleCategory.h"; sourceTree = "<group>"; };
 		BFBF84A62E90F18C00CB9D09 /* NSBundle+NJBundleCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NJBundleCategory.m"; sourceTree = "<group>"; };
 		BFBF84A72E90F18C00CB9D09 /* NSBundle+NJImageLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NJImageLoading.h"; sourceTree = "<group>"; };
@@ -134,11 +135,7 @@
 		BFBF84C62E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+NJDataInterceptor.h"; sourceTree = "<group>"; };
 		BFBF84C72E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+NJDataInterceptor.m"; sourceTree = "<group>"; };
 		BFBF84C92E90F18C00CB9D09 /* NJNetwork.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetwork.mm; sourceTree = "<group>"; };
-		BFBF84CA2E90F18C00CB9D09 /* NJNetwork.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = NJNetwork.xm; sourceTree = "<group>"; };
-		BFBF84CB2E90F18C00CB9D09 /* NJNetworkProxy.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetworkProxy.mm; sourceTree = "<group>"; };
-		BFBF84CC2E90F18C00CB9D09 /* NJNetworkProxy.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = NJNetworkProxy.xm; sourceTree = "<group>"; };
-		BFBF84CD2E90F18C00CB9D09 /* NJSSLProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJSSLProxy.h; sourceTree = "<group>"; };
-		BFBF84CE2E90F18C00CB9D09 /* NJSSLProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJSSLProxy.m; sourceTree = "<group>"; };
+		BFBF84CA2E90F18C00CB9D09 /* NJNetwork.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NJNetwork.xm; sourceTree = "<group>"; };
 		BFBF84D02E90F18C00CB9D09 /* RichMediaAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RichMediaAd.mm; sourceTree = "<group>"; };
 		BFBF84D12E90F18C00CB9D09 /* RichMediaAd.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = RichMediaAd.xm; sourceTree = "<group>"; };
 		BFBF84D32E90F18C00CB9D09 /* NJAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAsset.h; sourceTree = "<group>"; };
@@ -224,6 +221,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF9FA1712E97A6B8005212BC /* SSLKillSwitch3 */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FA16F2E97A6B8005212BC /* SSLKillSwitch.h */,
+				BF9FA1702E97A6B8005212BC /* SSLKillSwitch.m */,
+			);
+			path = SSLKillSwitch3;
+			sourceTree = "<group>";
+		};
 		BFBF84B72E90F18C00CB9D09 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,10 +296,6 @@
 				BFBF84C82E90F18C00CB9D09 /* Interceptor */,
 				BFBF84C92E90F18C00CB9D09 /* NJNetwork.mm */,
 				BFBF84CA2E90F18C00CB9D09 /* NJNetwork.xm */,
-				BFBF84CB2E90F18C00CB9D09 /* NJNetworkProxy.mm */,
-				BFBF84CC2E90F18C00CB9D09 /* NJNetworkProxy.xm */,
-				BFBF84CD2E90F18C00CB9D09 /* NJSSLProxy.h */,
-				BFBF84CE2E90F18C00CB9D09 /* NJSSLProxy.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -359,6 +361,7 @@
 				BFC320052E86BCF0000A1762 /* Tools */,
 				BFC3200C2E86BCF0000A1762 /* AntiAntiDebug */,
 				BFC3200F2E86BCF0000A1762 /* fishhook */,
+				BF9FA1712E97A6B8005212BC /* SSLKillSwitch3 */,
 				BFC3200A2E86BCF0000A1762 /* Supporting Files */,
 			);
 			path = DoubanMAppDylib;
@@ -457,12 +460,12 @@
 				BFBF84EF2E90F18C00CB9D09 /* NSDate+NJCategory.h in Headers */,
 				BFBF84F02E90F18C00CB9D09 /* NSBundle+NJLoadBundle.h in Headers */,
 				BFBF84F12E90F18C00CB9D09 /* UIViewController+NJFind.h in Headers */,
-				BFBF84F22E90F18C00CB9D09 /* NJSSLProxy.h in Headers */,
 				BFBF84F32E90F18C00CB9D09 /* NSBundle+NJImageLoading.h in Headers */,
 				BFBF84F42E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.h in Headers */,
 				BFBF84F52E90F18C00CB9D09 /* NJApiDataItem.h in Headers */,
 				BFBF84F62E90F18C00CB9D09 /* NJAsset.h in Headers */,
 				BFBF84F72E90F18C00CB9D09 /* NSURL+NJPath.h in Headers */,
+				BF9FA1732E97A6B8005212BC /* SSLKillSwitch.h in Headers */,
 				BFBF84F82E90F18C00CB9D09 /* UIApplication+NJCategory.h in Headers */,
 				BFBF84F92E90F18C00CB9D09 /* NJHomeAdsDataItem.h in Headers */,
 				BFBF84FA2E90F18C00CB9D09 /* UIColor+NJColor.h in Headers */,
@@ -646,6 +649,7 @@
 				BFC31FEF2E86BCF0000A1762 /* a1a2-selectortramps-arm.s in Sources */,
 				BFC31FF52E86BCF0000A1762 /* a1a2-selectortramps-x86_64.s in Sources */,
 				BFC31FFF2E86BCF0000A1762 /* OCMethodTrace.m in Sources */,
+				BF9FA1722E97A6B8005212BC /* SSLKillSwitch.m in Sources */,
 				BFC31FE42E86BCF0000A1762 /* MDConfigManager.m in Sources */,
 				BFC320112E86BCF0000A1762 /* fishhook.c in Sources */,
 				BFC3200E2E86BCF0000A1762 /* AntiAntiDebug.m in Sources */,
@@ -654,7 +658,6 @@
 				BFC31FF92E86BCF0000A1762 /* a2a3-selectortramps-i386.s in Sources */,
 				BFBF84D82E90F18C00CB9D09 /* NJHomeAdsDataItem.m in Sources */,
 				BFBF84D92E90F18C00CB9D09 /* UIImage+NJCategory.m in Sources */,
-				BFBF84DA2E90F18C00CB9D09 /* NJNetworkProxy.mm in Sources */,
 				BFBF84DB2E90F18C00CB9D09 /* NJApiDataItem.m in Sources */,
 				BFBF84DC2E90F18C00CB9D09 /* UIColor+NJColor.m in Sources */,
 				BFBF84DD2E90F18C00CB9D09 /* NSBundle+NJBundleCategory.m in Sources */,
@@ -672,7 +675,6 @@
 				BFBF84E92E90F18C00CB9D09 /* NJNetwork.mm in Sources */,
 				BFBF84EA2E90F18C00CB9D09 /* NSBundle+NJImageLoading.m in Sources */,
 				BFBF84EB2E90F18C00CB9D09 /* NJCommonDefine.m in Sources */,
-				BFBF84EC2E90F18C00CB9D09 /* NJSSLProxy.m in Sources */,
 				BFBF84ED2E90F18C00CB9D09 /* NSURLSessionTask+NJDataInterceptor.m in Sources */,
 				BFC31FF72E86BCF0000A1762 /* a2a3-selectortramps-arm.s in Sources */,
 				BFC320092E86BCF0000A1762 /* LLDBTools.mm in Sources */,

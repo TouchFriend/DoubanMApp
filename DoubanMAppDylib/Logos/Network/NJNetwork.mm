@@ -1,4 +1,4 @@
-#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Network/NJNetwork.xm"
+#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Network/NJNetwork.xm"
 
 
 
@@ -46,10 +46,10 @@
 
 __asm__(".linker_option \"-framework\", \"CydiaSubstrate\"");
 
-@class AFHTTPSessionManager; @class URLSessionAdapter; 
+@class URLSessionAdapter; @class AFHTTPSessionManager; 
 static void (*_logos_orig$_ungrouped$URLSessionAdapter$URLSession$dataTask$didReceiveData$)(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionDataTask *, NSData *); static void _logos_method$_ungrouped$URLSessionAdapter$URLSession$dataTask$didReceiveData$(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionDataTask *, NSData *); static void (*_logos_orig$_ungrouped$URLSessionAdapter$URLSession$task$didCompleteWithError$)(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionTask *, NSError *); static void _logos_method$_ungrouped$URLSessionAdapter$URLSession$task$didCompleteWithError$(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionTask *, NSError *); static NJApiDataInterceptor * _logos_method$_ungrouped$URLSessionAdapter$nj_dataInterceptor(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$AFHTTPSessionManager$URLSession$dataTask$didReceiveData$)(_LOGOS_SELF_TYPE_NORMAL AFHTTPSessionManager* _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionDataTask *, NSData *); static void _logos_method$_ungrouped$AFHTTPSessionManager$URLSession$dataTask$didReceiveData$(_LOGOS_SELF_TYPE_NORMAL AFHTTPSessionManager* _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionDataTask *, NSData *); static void (*_logos_orig$_ungrouped$AFHTTPSessionManager$URLSession$task$didCompleteWithError$)(_LOGOS_SELF_TYPE_NORMAL AFHTTPSessionManager* _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionTask *, NSError *); static void _logos_method$_ungrouped$AFHTTPSessionManager$URLSession$task$didCompleteWithError$(_LOGOS_SELF_TYPE_NORMAL AFHTTPSessionManager* _LOGOS_SELF_CONST, SEL, NSURLSession *, NSURLSessionTask *, NSError *); static NJApiDataInterceptor * _logos_method$_ungrouped$AFHTTPSessionManager$nj_dataInterceptor(_LOGOS_SELF_TYPE_NORMAL AFHTTPSessionManager* _LOGOS_SELF_CONST, SEL); 
 
-#line 25 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Network/NJNetwork.xm"
+#line 25 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Network/NJNetwork.xm"
 
 
 static void _logos_method$_ungrouped$URLSessionAdapter$URLSession$dataTask$didReceiveData$(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, NSURLSession * session, NSURLSessionDataTask * task, NSData * data) {
