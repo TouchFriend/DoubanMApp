@@ -100,6 +100,8 @@ static BOOL shouldHookFromPreference()
     return NO;
 #endif
     
+    return NO;
+    
 #if SUBSTRATE_BUILD
     NSString *preferenceSetting = PREFERENCE_KEY;
     BOOL shouldHook = NO;
