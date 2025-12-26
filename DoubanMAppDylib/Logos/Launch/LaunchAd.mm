@@ -5,6 +5,12 @@
 #import "NJCommonDefine.h"
 
 
+@interface FRDNormalDoodleViewController : UIViewController
+
+- (void)dismissWithViewDetail:(_Bool)detail;
+
+@end
+
 
 #include <substrate.h>
 #if defined(__clang__)
@@ -28,14 +34,31 @@
 
 __asm__(".linker_option \"-framework\", \"CydiaSubstrate\"");
 
-@class DOUADAPIClient; @class FRDBaseDoodleViewController; @class DOUAdvertisement; 
-static id (*_logos_orig$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$)(_LOGOS_SELF_TYPE_INIT id, SEL, id, id) _LOGOS_RETURN_RETAINED; static id _logos_method$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$(_LOGOS_SELF_TYPE_INIT id, SEL, id, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$init)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$init(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithDictionary$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithDictionary$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithString$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithString$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithData$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithData$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithCoder$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithCoder$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$)(_LOGOS_SELF_TYPE_NORMAL DOUADAPIClient* _LOGOS_SELF_CONST, SEL, id, id, void (^)(NSError *error)); static void _logos_method$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$(_LOGOS_SELF_TYPE_NORMAL DOUADAPIClient* _LOGOS_SELF_CONST, SEL, id, id, void (^)(NSError *error)); 
+@class FRDNormalDoodleViewController; @class DOUADAPIClient; @class DOUAdvertisement; @class FRDBirthdayDoodleViewController; 
+static void (*_logos_orig$_ungrouped$FRDNormalDoodleViewController$viewDidLoad)(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$FRDNormalDoodleViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad)(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$init)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$init(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithDictionary$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithDictionary$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithString$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithString$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithData$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithData$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* (*_logos_orig$_ungrouped$DOUAdvertisement$initWithCoder$)(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static DOUAdvertisement* _logos_method$_ungrouped$DOUAdvertisement$initWithCoder$(_LOGOS_SELF_TYPE_INIT DOUAdvertisement*, SEL, id) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$)(_LOGOS_SELF_TYPE_NORMAL DOUADAPIClient* _LOGOS_SELF_CONST, SEL, id, id, void (^)(NSError *error)); static void _logos_method$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$(_LOGOS_SELF_TYPE_NORMAL DOUADAPIClient* _LOGOS_SELF_CONST, SEL, id, id, void (^)(NSError *error)); 
 
-#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Launch/LaunchAd.xm"
+#line 13 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Launch/LaunchAd.xm"
 
 
-static id _logos_method$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$(_LOGOS_SELF_TYPE_INIT id __unused self, SEL __unused _cmd, id name, id bundle) _LOGOS_RETURN_RETAINED {
-    return nil;
+static void _logos_method$_ungrouped$FRDNormalDoodleViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    _logos_orig$_ungrouped$FRDNormalDoodleViewController$viewDidLoad(self, _cmd);
+    [self dismissWithViewDetail:NO];
+}
+
+
+
+
+@interface FRDBirthdayDoodleViewController : UIViewController
+
+- (void)skipButtonPressed;
+
+@end
+
+
+
+static void _logos_method$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    _logos_orig$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad(self, _cmd);
+    [self skipButtonPressed];
 }
 
 
@@ -75,9 +98,10 @@ static void _logos_method$_ungrouped$DOUADAPIClient$_sendRequest$success$failure
 }
 
 
- 
 
-static __attribute__((constructor)) void _logosLocalCtor_da6b7450(int __unused argc, char __unused **argv, char __unused **envp) {
-    {Class _logos_class$_ungrouped$FRDBaseDoodleViewController = objc_getClass("Frodo.FRDBaseDoodleViewController"); { MSHookMessageEx(_logos_class$_ungrouped$FRDBaseDoodleViewController, @selector(initWithNibName:bundle:), (IMP)&_logos_method$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$, (IMP*)&_logos_orig$_ungrouped$FRDBaseDoodleViewController$initWithNibName$bundle$);}Class _logos_class$_ungrouped$DOUAdvertisement = objc_getClass("DOUAdvertisement"); { MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(init), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$init, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$init);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithDictionary:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithDictionary$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithDictionary$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithString:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithString$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithString$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithData:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithData$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithData$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithCoder:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithCoder$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithCoder$);}Class _logos_class$_ungrouped$DOUADAPIClient = objc_getClass("DOUADAPIClient"); { MSHookMessageEx(_logos_class$_ungrouped$DOUADAPIClient, @selector(_sendRequest:success:failure:), (IMP)&_logos_method$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$, (IMP*)&_logos_orig$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$);}}
+
+static __attribute__((constructor)) void _logosLocalCtor_0271b2a0(int __unused argc, char __unused **argv, char __unused **envp) {
+
+    {Class _logos_class$_ungrouped$FRDNormalDoodleViewController = objc_getClass("Frodo.FRDNormalDoodleViewController"); { MSHookMessageEx(_logos_class$_ungrouped$FRDNormalDoodleViewController, @selector(viewDidLoad), (IMP)&_logos_method$_ungrouped$FRDNormalDoodleViewController$viewDidLoad, (IMP*)&_logos_orig$_ungrouped$FRDNormalDoodleViewController$viewDidLoad);}Class _logos_class$_ungrouped$FRDBirthdayDoodleViewController = objc_getClass("Frodo.FRDBirthdayDoodleViewController"); { MSHookMessageEx(_logos_class$_ungrouped$FRDBirthdayDoodleViewController, @selector(viewDidLoad), (IMP)&_logos_method$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad, (IMP*)&_logos_orig$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad);}Class _logos_class$_ungrouped$DOUAdvertisement = objc_getClass("DOUAdvertisement"); { MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(init), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$init, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$init);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithDictionary:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithDictionary$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithDictionary$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithString:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithString$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithString$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithData:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithData$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithData$);}{ MSHookMessageEx(_logos_class$_ungrouped$DOUAdvertisement, @selector(initWithCoder:), (IMP)&_logos_method$_ungrouped$DOUAdvertisement$initWithCoder$, (IMP*)&_logos_orig$_ungrouped$DOUAdvertisement$initWithCoder$);}Class _logos_class$_ungrouped$DOUADAPIClient = objc_getClass("DOUADAPIClient"); { MSHookMessageEx(_logos_class$_ungrouped$DOUADAPIClient, @selector(_sendRequest:success:failure:), (IMP)&_logos_method$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$, (IMP*)&_logos_orig$_ungrouped$DOUADAPIClient$_sendRequest$success$failure$);}}
 }
 

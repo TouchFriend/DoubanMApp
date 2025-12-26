@@ -4,10 +4,33 @@
 #import "NJCommonDefine.h"
 
 // 开屏涂鸦页面
-%hook FRDBaseDoodleViewController
+@interface FRDNormalDoodleViewController : UIViewController
 
-- (id)initWithNibName:(id)name bundle:(id)bundle {
-    return nil;
+- (void)dismissWithViewDetail:(_Bool)detail;
+
+@end
+
+%hook FRDNormalDoodleViewController
+
+- (void)viewDidLoad {
+    %orig;
+    [self dismissWithViewDetail:NO];
+}
+
+%end
+
+// 开屏生日页面
+@interface FRDBirthdayDoodleViewController : UIViewController
+
+- (void)skipButtonPressed;
+
+@end
+
+%hook FRDBirthdayDoodleViewController
+
+- (void)viewDidLoad {
+    %orig;
+    [self skipButtonPressed];
 }
 
 %end
@@ -47,9 +70,10 @@
 }
 
 %end
- 
+
 
 %ctor {
-    %init(FRDBaseDoodleViewController = objc_getClass("Frodo.FRDBaseDoodleViewController"));
+    %init(FRDNormalDoodleViewController = objc_getClass("Frodo.FRDNormalDoodleViewController"),
+          FRDBirthdayDoodleViewController = objc_getClass("Frodo.FRDBirthdayDoodleViewController"));
 }
 

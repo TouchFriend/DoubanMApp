@@ -121,7 +121,7 @@
 		BFBF84B52E90F18C00CB9D09 /* UIViewController+NJFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NJFind.h"; sourceTree = "<group>"; };
 		BFBF84B62E90F18C00CB9D09 /* UIViewController+NJFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NJFind.m"; sourceTree = "<group>"; };
 		BFBF84B82E90F18C00CB9D09 /* HomeAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HomeAd.mm; sourceTree = "<group>"; };
-		BFBF84B92E90F18C00CB9D09 /* HomeAd.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = HomeAd.xm; sourceTree = "<group>"; };
+		BFBF84B92E90F18C00CB9D09 /* HomeAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = HomeAd.xm; sourceTree = "<group>"; };
 		BFBF84BA2E90F18C00CB9D09 /* NJHomeAdsDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJHomeAdsDataItem.h; sourceTree = "<group>"; };
 		BFBF84BB2E90F18C00CB9D09 /* NJHomeAdsDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJHomeAdsDataItem.m; sourceTree = "<group>"; };
 		BFBF84BC2E90F18C00CB9D09 /* NJHomeBannerDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJHomeBannerDataItem.h; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		BFBF84C92E90F18C00CB9D09 /* NJNetwork.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetwork.mm; sourceTree = "<group>"; };
 		BFBF84CA2E90F18C00CB9D09 /* NJNetwork.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NJNetwork.xm; sourceTree = "<group>"; };
 		BFBF84D02E90F18C00CB9D09 /* RichMediaAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RichMediaAd.mm; sourceTree = "<group>"; };
-		BFBF84D12E90F18C00CB9D09 /* RichMediaAd.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = RichMediaAd.xm; sourceTree = "<group>"; };
+		BFBF84D12E90F18C00CB9D09 /* RichMediaAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = RichMediaAd.xm; sourceTree = "<group>"; };
 		BFBF84D32E90F18C00CB9D09 /* NJAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAsset.h; sourceTree = "<group>"; };
 		BFBF84D42E90F18C00CB9D09 /* NJAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAsset.m; sourceTree = "<group>"; };
 		BFBF84D52E90F18C00CB9D09 /* NJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCommonDefine.h; sourceTree = "<group>"; };

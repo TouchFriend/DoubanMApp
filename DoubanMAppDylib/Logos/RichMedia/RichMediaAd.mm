@@ -1,4 +1,4 @@
-#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/RichMedia/RichMediaAd.xm"
+#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/RichMedia/RichMediaAd.xm"
 
 
 
@@ -96,7 +96,7 @@ __asm__(".linker_option \"-framework\", \"CydiaSubstrate\"");
 @class FRDRXRSubjectModuleViewController; 
 static void (*_logos_orig$_ungrouped$FRDRXRSubjectModuleViewController$initWebView)(_LOGOS_SELF_TYPE_NORMAL FRDRXRSubjectModuleViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$FRDRXRSubjectModuleViewController$initWebView(_LOGOS_SELF_TYPE_NORMAL FRDRXRSubjectModuleViewController* _LOGOS_SELF_CONST, SEL); 
 
-#line 72 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/RichMedia/RichMediaAd.xm"
+#line 72 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/RichMedia/RichMediaAd.xm"
 
 
 static void _logos_method$_ungrouped$FRDRXRSubjectModuleViewController$initWebView(_LOGOS_SELF_TYPE_NORMAL FRDRXRSubjectModuleViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
@@ -135,47 +135,6 @@ static void _logos_method$_ungrouped$FRDRXRSubjectModuleViewController$initWebVi
 
 
 
-
-@interface FRDRXRWebView : WKWebView
-
-@end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$FRDRXRSubjectModuleViewController = objc_getClass("FRDRXRSubjectModuleViewController"); { MSHookMessageEx(_logos_class$_ungrouped$FRDRXRSubjectModuleViewController, @selector(initWebView), (IMP)&_logos_method$_ungrouped$FRDRXRSubjectModuleViewController$initWebView, (IMP*)&_logos_orig$_ungrouped$FRDRXRSubjectModuleViewController$initWebView);}} }
-#line 151 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/RichMedia/RichMediaAd.xm"
+#line 110 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/RichMedia/RichMediaAd.xm"
