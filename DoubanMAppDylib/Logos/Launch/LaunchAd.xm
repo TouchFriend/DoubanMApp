@@ -3,6 +3,16 @@
 #import <UIKit/UIKit.h>
 #import "NJCommonDefine.h"
 
+// 开屏广告
+%hook DOUAdvertiseCenter
+
+- (void)_dou_launchSplashProviderWithTimeout:(double)timeout enableSDKAd:(_Bool)sdkad enableSplashClientBid:(_Bool)bid splashClientBidUsePreload:(_Bool)preload splashShowTimeout:(double)splashShowTimeout splashBidTimeout:(double)splashBidTimeout splashSDKInfos:(id)sdkinfos isColdLaunch:(_Bool)launch completion:(id)completion {
+    %orig(0.0, NO, NO, NO, 0.0, 0.0, sdkinfos, launch, completion);
+}
+
+%end
+
+
 // 开屏涂鸦页面
 @interface FRDNormalDoodleViewController : UIViewController
 
@@ -35,38 +45,14 @@
 
 %end
 
-// 开屏广告
-%hook DOUAdvertisement
+// 涂鸦管理者
+%hook FRDDoodleManager
 
-- (id)init {
-    return nil;
-}
-
-- (id)initWithDictionary:(id)dictionary {
-    return nil;
-}
-
-- (id)initWithString:(id)string {
-    return nil;
-}
-
-- (id)initWithData:(id)data {
-    return nil;
-}
-
-- (id)initWithCoder:(id)coder {
-    return nil;
-}
-
-%end
-
-// 开屏广告-屏蔽部分广告请求
-%hook DOUADAPIClient
-
-- (void)_sendRequest:(id)request success:(id)success failure:(void (^)(NSError *error))failure {
-    if (failure) {
-        failure([NSError errorWithDomain:NSURLErrorDomain code:NSURLErrorTimedOut userInfo:nil]);
-    }
+- (void)_frd_dismissDoodle {
+    // 移除关闭动画
+    [UIView performWithoutAnimation:^{
+        %orig;
+    }];
 }
 
 %end
