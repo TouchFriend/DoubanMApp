@@ -1,4 +1,4 @@
-#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Launch/LaunchAd.xm"
+#line 1 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Launch/LaunchAd.xm"
 
 
 #import <UIKit/UIKit.h>
@@ -28,10 +28,10 @@
 
 __asm__(".linker_option \"-framework\", \"CydiaSubstrate\"");
 
-@class FRDBirthdayDoodleViewController; @class DOUAdvertiseCenter; @class FRDDoodleManager; @class FRDNormalDoodleViewController; 
+@class FRDBirthdayDoodleViewController; @class DOUAdvertiseCenter; @class FRDNormalDoodleViewController; @class FRDDoodleManager; 
 static void (*_logos_orig$_ungrouped$DOUAdvertiseCenter$_dou_launchSplashProviderWithTimeout$enableSDKAd$enableSplashClientBid$splashClientBidUsePreload$splashShowTimeout$splashBidTimeout$splashSDKInfos$isColdLaunch$completion$)(_LOGOS_SELF_TYPE_NORMAL DOUAdvertiseCenter* _LOGOS_SELF_CONST, SEL, double, _Bool, _Bool, _Bool, double, double, id, _Bool, id); static void _logos_method$_ungrouped$DOUAdvertiseCenter$_dou_launchSplashProviderWithTimeout$enableSDKAd$enableSplashClientBid$splashClientBidUsePreload$splashShowTimeout$splashBidTimeout$splashSDKInfos$isColdLaunch$completion$(_LOGOS_SELF_TYPE_NORMAL DOUAdvertiseCenter* _LOGOS_SELF_CONST, SEL, double, _Bool, _Bool, _Bool, double, double, id, _Bool, id); static void (*_logos_orig$_ungrouped$FRDNormalDoodleViewController$viewDidLoad)(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$FRDNormalDoodleViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad)(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$FRDBirthdayDoodleViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL id _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$FRDDoodleManager$_frd_dismissDoodle)(_LOGOS_SELF_TYPE_NORMAL FRDDoodleManager* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$FRDDoodleManager$_frd_dismissDoodle(_LOGOS_SELF_TYPE_NORMAL FRDDoodleManager* _LOGOS_SELF_CONST, SEL); 
 
-#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanMApp/DoubanMAppDylib/Logos/Launch/LaunchAd.xm"
+#line 7 "/Users/touchworld/Documents/iOSDisassembler/hook/douban/DoubanTweak/DoubanTweak/Src/Launch/LaunchAd.xm"
 
 
 static void _logos_method$_ungrouped$DOUAdvertiseCenter$_dou_launchSplashProviderWithTimeout$enableSDKAd$enableSplashClientBid$splashClientBidUsePreload$splashShowTimeout$splashBidTimeout$splashSDKInfos$isColdLaunch$completion$(_LOGOS_SELF_TYPE_NORMAL DOUAdvertiseCenter* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, double timeout, _Bool sdkad, _Bool bid, _Bool preload, double splashShowTimeout, double splashBidTimeout, id sdkinfos, _Bool launch, id completion) {
