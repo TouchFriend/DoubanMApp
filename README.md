@@ -8,7 +8,7 @@
 
 一个通过 **iOS 逆向分析** 实现的 **无广告版豆瓣** 客户端，在保留原有功能的基础上，专注于 **广告移除与体验优化**。
 
-> 如果应用要多开，`bundle id`要以`dddd`结尾，比如`com.douban.frodo.dddd`
+> 如果应用要多开，`bundle id`要以`.dddd`结尾，比如`com.douban.frodo.dddd`
 
 ---
 
