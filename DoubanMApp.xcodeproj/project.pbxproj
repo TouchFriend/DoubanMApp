@@ -45,6 +45,7 @@
 		BF1EF43B2FC2A57F007AB708 /* NJHomeBannerDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1EF4002FC2A57F007AB708 /* NJHomeBannerDataItem.m */; };
 		BF9FA1722E97A6B8005212BC /* SSLKillSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9FA1702E97A6B8005212BC /* SSLKillSwitch.m */; };
 		BF9FA1732E97A6B8005212BC /* SSLKillSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9FA16F2E97A6B8005212BC /* SSLKillSwitch.h */; };
+		BFB7E4312FD400B90063D5F2 /* NJHookBundleIdentifier.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFB7E4302FD400B90063D5F2 /* NJHookBundleIdentifier.mm */; };
 		BFC31FD12E86BCF0000A1762 /* libDoubanMAppDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BFC31FD62E86BCF0000A1762 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */; };
 		BFC31FD82E86BCF0000A1762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC31FD72E86BCF0000A1762 /* Foundation.framework */; };
@@ -142,6 +143,8 @@
 		BF1EF4152FC2A57F007AB708 /* NJCommonDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJCommonDefine.m; sourceTree = "<group>"; };
 		BF9FA16F2E97A6B8005212BC /* SSLKillSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLKillSwitch.h; sourceTree = "<group>"; };
 		BF9FA1702E97A6B8005212BC /* SSLKillSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLKillSwitch.m; sourceTree = "<group>"; };
+		BFB7E42F2FD400A80063D5F2 /* NJHookBundleIdentifier.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NJHookBundleIdentifier.xm; sourceTree = "<group>"; };
+		BFB7E4302FD400B90063D5F2 /* NJHookBundleIdentifier.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJHookBundleIdentifier.mm; sourceTree = "<group>"; };
 		BFC31FBF2E86BCF0000A1762 /* DoubanMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC31FD02E86BCF0000A1762 /* libDoubanMAppDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDoubanMAppDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC31FD52E86BCF0000A1762 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -307,6 +310,8 @@
 				BF1EF4132FC2A57F007AB708 /* NJAsset.m */,
 				BF1EF4142FC2A57F007AB708 /* NJCommonDefine.h */,
 				BF1EF4152FC2A57F007AB708 /* NJCommonDefine.m */,
+				BFB7E4302FD400B90063D5F2 /* NJHookBundleIdentifier.mm */,
+				BFB7E42F2FD400A80063D5F2 /* NJHookBundleIdentifier.xm */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -652,6 +657,7 @@
 				BF9FA1722E97A6B8005212BC /* SSLKillSwitch.m in Sources */,
 				BF1EF4282FC2A57F007AB708 /* NSBundle+NJImageLoading.m in Sources */,
 				BF1EF4292FC2A57F007AB708 /* NSBundle+NJBundleCategory.m in Sources */,
+				BFB7E4312FD400B90063D5F2 /* NJHookBundleIdentifier.mm in Sources */,
 				BF1EF42A2FC2A57F007AB708 /* NJCommonDefine.m in Sources */,
 				BF1EF42B2FC2A57F007AB708 /* HomeAd.mm in Sources */,
 				BF1EF42C2FC2A57F007AB708 /* NJAsset.m in Sources */,
@@ -824,7 +830,7 @@
 				MONKEYDEV_TARGET_APP = "豆瓣";
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = com.douban.frodo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.douban.frodo.dddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -849,7 +855,7 @@
 				MONKEYDEV_TARGET_APP = "豆瓣";
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = com.douban.frodo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.douban.frodo.dddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
